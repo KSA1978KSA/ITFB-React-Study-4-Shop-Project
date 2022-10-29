@@ -1,0 +1,9 @@
+.MainMenu {
+	display: flex;		
+	align-items: center;
+	justify-content: center;
+	height: 72px;
+	border: solid;
+	border-width: 1px;
+}      
+    

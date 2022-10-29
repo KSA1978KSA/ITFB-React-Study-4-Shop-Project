@@ -1,0 +1,9 @@
+.PageCatigory {
+	display: flex;	
+	align-items: center;
+	justify-content: center;
+	font-size: 36px; 
+	flex-direction: column;
+	gap: 10px;
+}      
+    

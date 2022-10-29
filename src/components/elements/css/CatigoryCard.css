@@ -1,0 +1,66 @@
+
+
+.CatigoryCard584 {
+    position: relative;
+    height: 200px;
+    width: 584px;
+    border-radius: 4px;
+}
+
+.CatigoryCard272 {
+    position: relative;
+    height: 200px;
+    width: 272px;
+    border: none;
+	border-width: 1px;
+    background: #FFFFFF;    
+    box-shadow: 1px 2px 4px rgba(112, 192, 91, 0.2);
+    border-radius: 4px;
+}
+
+
+
+.CatigoryCardImg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #FFFFFF;    
+    box-shadow: 1px 2px 4px rgba(112, 192, 91, 0.2);
+    border-radius: 4px;
+}
+
+.CatigoryCardShadow1 {
+    position: absolute;
+    height: 117px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px; 
+    
+    background: linear-gradient(180deg, rgba(112, 192, 91, 0) 0%, #70C05B 82.81%);
+    border-radius: 4px;
+}
+
+.CatigoryCardShadow2 {
+    position: absolute;
+    height: 177px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    
+    background: linear-gradient(180deg, rgba(255, 102, 51, 0) 0%, #FF6633 100%);
+    border-radius: 4px;
+}
+
+
+
+.CatigoryCardText {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    word-wrap: break-word;
+}
