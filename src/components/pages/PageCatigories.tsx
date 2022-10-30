@@ -42,18 +42,18 @@ function PageCatigories () {
 
 	return (
 		<div className='PageCatigories'>
-			<div className='PageCatigoriesMain'>
-				<div className='PageCatigoriesMainWrapper'>
-					<div className='PageCatigories_Path'>	
+			<div className='PageCatigoriesWrapper'>
+				<div className='PageCatigoriesContainer'>
+					<div className='PageCatigoriesPath'>	
 						<div>Главная</div>
 						<div>{"/"}</div>
 						<div>Каталог</div>
 					</div>	
-					<div className='PageCatigories_Header'>	
+					<div className='PageCatigoriesHeader'>	
 						Каталог
 					</div>		
 					
-					<div className='PageCatigories_Body'>
+					<div className='PageCatigoriesBody'>
 
 						<CatigoryCard  
 							image={image1}
@@ -135,8 +135,9 @@ function PageCatigories () {
 							/>
 
 
-						</div>	
-				</div>				
+						</div>							
+				</div>	
+				<div className='PageCatigoriesBottom' />		
 			</div>
 		</div>
 	)

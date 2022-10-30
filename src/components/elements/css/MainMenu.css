@@ -1,9 +1,29 @@
 .MainMenu {
 	display: flex;		
-	align-items: center;
+	align-items: center;	
 	justify-content: center;
+	background: #E5E5E5;
+}   
+
+.MainMenuContainer {
+	display: flex;		
+	align-items: center;	
 	height: 72px;
-	border: solid;
-	border-width: 1px;
-}      
+	width: 1440px;	
+	background: #FFFFFF;	
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+}   
     
+.MainMenu__Tab116 {
+	display: flex;
+	width: 116px;	
+}
+
+.MainMenu__Merch {
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 40px;
+	height: 32px;	
+}

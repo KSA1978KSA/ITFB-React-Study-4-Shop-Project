@@ -2,6 +2,7 @@ import ReactDOM from 'react-dom';
 import {PageCatigories} from "./components/pages/PageCatigories";
 import {PageCatigory} from "./components/pages/PageCatigory";
 import {MainMenu} from "./components/elements/MainMenu";
+import {Footer} from "./components/elements/Footer";
 import './fonts/Rubik.css';
 
 import {
@@ -14,7 +15,7 @@ import {
 ReactDOM.render(
 	[        		
 		<Router>
-			<MainMenu key="ksa1" />
+			<MainMenu />
 			<Routes>
 				<Route path="/PageCatigories">
 					<Route index element={<PageCatigories />} />					
@@ -28,7 +29,8 @@ ReactDOM.render(
 					path="*"
 					element={<Navigate to="/PageCatigories" replace />}
 					/>				
-			</Routes>
+			</Routes>			
+			<Footer />
 		</Router>
 	],
 	document.querySelector('#root')

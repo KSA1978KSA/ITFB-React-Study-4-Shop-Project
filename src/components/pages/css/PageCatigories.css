@@ -1,23 +1,32 @@
 .PageCatigories {
 	display: flex;	
 	align-items: center;
-	justify-content: center;
-	background: #FBF8EC;
-	font-family: Rubik;	
+	justify-content: center;	
+	font-family: Rubik;		
+	background: #E5E5E5;
 }      
     
-
-.PageCatigoriesMain {
+.PageCatigoriesWrapper {
 	display: flex;		
 	align-items: center;
 	justify-content: center;
 	font-size: 36px; 
 	flex-direction: column;	
 	width: 1440px;
+	background: #FBF8EC;
 }      
+
+.PageCatigoriesContainer {
+	display: flex;		
+	justify-content: center;
+	font-size: 36px; 
+	flex-direction: column;
+	gap: 10px;	
+	width: 1208px;	
+}
     
 
-.PageCatigories_Path {
+.PageCatigoriesPath {
 	margin-top: 10px;
 	display: flex;	
 	font-size: 12px;
@@ -28,7 +37,7 @@
 	color: #414141;
 }
 
-.PageCatigories_Header {	
+.PageCatigoriesHeader {	
 	display: flex;	
 	font-size: 64px; 	
 	font-style: normal;
@@ -36,17 +45,7 @@
 	color: #414141;
 }
 
-
-.PageCatigoriesMainWrapper {
-	display: flex;		
-	justify-content: center;
-	font-size: 36px; 
-	flex-direction: column;
-	gap: 10px;	
-	width: 1208px;	
-}
-
-.PageCatigories_Body {
+.PageCatigoriesBody {
 	width: 1208px;
 	margin-top: 10px;
 	display: flex;
@@ -54,3 +53,12 @@
 	gap: 40px;
 	flex-wrap: wrap;
 }
+
+.PageCatigoriesBottom {
+	display: flex;	
+	height: 40px;	
+}
+
+
+
+

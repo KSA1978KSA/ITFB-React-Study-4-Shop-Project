@@ -35,7 +35,7 @@ function CatigoryCard (props: any) {
     switch (props.cardType) {
         case 0:
             jsxElement = 
-                <div className='CatigoryCard584'>
+                <div className='PageCatigoriesBody__CatigoryCard584'>
                     <img className='CatigoryCardImg' src={props.image} alt="" aria-hidden="true" data-noaft="" />
                     <CardShadow shadowType={props.shadowType} /> 
                     <div className='CatigoryCardText'>{props.CatigoryName}</div>                   
@@ -45,7 +45,7 @@ function CatigoryCard (props: any) {
         
         case 1:
             jsxElement = 
-                <div className='CatigoryCard272'>
+                <div className='PageCatigoriesBody__CatigoryCard272'>
                     <img className='CatigoryCardImg' src={props.image} alt="" aria-hidden="true" data-noaft="" />      
                     <CardShadow shadowType={props.shadowType} />
                     <div className='CatigoryCardText'>{props.CatigoryName}</div>                   
@@ -55,7 +55,7 @@ function CatigoryCard (props: any) {
             
         default:
             jsxElement = 
-            <div className='CatigoryCard584'>
+            <div className='PageCatigoriesBody__CatigoryCard584'>
                 <img className='CatigoryCardImg' src={props.image} alt="" aria-hidden="true" data-noaft="" /> 
                 <CardShadow shadowType={props.shadowType} />
                 <div className='CatigoryCardText'>{props.CatigoryName}</div>                   
