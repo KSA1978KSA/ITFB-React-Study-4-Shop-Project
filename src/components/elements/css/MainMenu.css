@@ -101,3 +101,11 @@
 .MainMenu__InputSearch {
 	margin-left: 3px;
 }
+
+
+.MainMenu__ButtonsWithIconArray {
+	display: flex;
+	align-items: center;		
+	margin-left: 40px;
+	gap: 24px;
+}

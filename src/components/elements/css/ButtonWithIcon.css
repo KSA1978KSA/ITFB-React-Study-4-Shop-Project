@@ -1,0 +1,13 @@
+
+.MainMenu__ButtonWithIcon {
+    display: flex;	
+	flex-direction: column;		
+    align-items: center;	
+	justify-content: center;
+}
+
+.ButtonWithIconImg {
+    display: flex;	
+    height: 24px;
+    width: 24px;
+}

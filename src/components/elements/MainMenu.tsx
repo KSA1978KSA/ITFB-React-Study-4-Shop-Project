@@ -2,7 +2,8 @@ import React from 'react';
 
 import "./css/MainMenu.css";
 import merch1 from "../../pictures/merch1.png";
-import search from "../../pictures/search.png";
+import icon_search from "../../pictures/icon_search.png";
+import {ButtonWithIcon} from "../elements/ButtonWithIcon";
 
 function MainMenu () {
 
@@ -30,7 +31,13 @@ function MainMenu () {
 						className='MainMenu__Input'	
 						placeholder='Найти товар'																		
 					></input>
-					<img className='MainMenu__InputSearch' src={search} alt="" aria-hidden="true" data-noaft="" />  
+					<img className='MainMenu__InputSearch' src={icon_search} alt="" aria-hidden="true" data-noaft="" />  
+				</div>
+
+				<div className='MainMenu__ButtonsWithIconArray'>
+					<ButtonWithIcon iconName="heart" buttonText={"Избранное"} />
+					<ButtonWithIcon iconName="package" buttonText={"Заказы"} />
+					<ButtonWithIcon iconName="basket" buttonText={"Корзина"} />
 				</div>
 			</div>      
 		</div>
