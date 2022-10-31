@@ -3,6 +3,7 @@
 	align-items: center;	
 	justify-content: center;
 	background: #E5E5E5;
+	font-family: Rubik;	
 }   
 
 .MainMenuContainer {
@@ -24,6 +25,79 @@
 	display: flex;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	width: 40px;
+	width: 152px;
 	height: 32px;	
+}
+
+.MainMenu__Tab40 {
+	display: flex;
+	width: 40px;	
+}
+
+.MainMenu__ButtonList {
+	display: flex;
+	width: 140px;	
+	height: 40px;
+	background: #70C05B;
+	border-radius: 4px;
+}
+
+.MainMenu__ButtonListIcon {
+	display: flex;
+	margin-left: 8px;
+	margin-top: 13.5px;
+	width: 40px;	
+	flex-direction: column;			
+}
+
+.MainMenu__ButtonListCaption {
+	display: flex;
+	width: 100px;
+	height: 100%;		
+	align-items: center;	
+	justify-content: center;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;
+}
+
+
+
+.MainMenu__ButtonListIconLine {
+	display: flex;
+	width: 19px;
+	height: 1px;
+	background-color: #FFFFFF;
+}
+
+.MainMenu__ButtonListIconTab {
+	display: flex;
+	height: 5px;
+}
+
+.MainMenu__InputWrapper {
+	display: flex;
+	align-items: center;		
+	margin-left: 16px;
+	width: 375px;
+	background: #FFFFFF;
+	
+	border: 1px solid #70C05B;
+	border-radius: 4px;
+}
+
+.MainMenu__Input {
+	margin-left: 16px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 317px;
+	border: none;
+	outline: none;
+}
+
+
+.MainMenu__InputSearch {
+	margin-left: 3px;
 }
