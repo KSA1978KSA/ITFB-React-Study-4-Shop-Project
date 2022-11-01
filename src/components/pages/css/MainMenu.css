@@ -1,0 +1,29 @@
+.MainMenu {
+	display: flex;		
+	align-items: center;	
+	justify-content: center;
+	background: #E5E5E5;
+	font-family: Rubik;	
+}   
+
+.MainMenuContainer {
+	display: flex;		
+	align-items: center;	
+	height: 72px;
+	width: 1440px;	
+	background: #FFFFFF;	
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+}   
+    
+
+.MainMenu__Merch {
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 152px;
+	height: 32px;	
+}
+
+
+

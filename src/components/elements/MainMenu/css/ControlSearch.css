@@ -1,0 +1,23 @@
+.MainMenu__ControlSearch {
+	display: flex;
+	align-items: center;			
+	width: 375px;
+	background: #FFFFFF;
+	
+	border: 1px solid #70C05B;
+	border-radius: 4px;
+}
+
+.MainMenu__ControlSearchInput {
+	margin-left: 16px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 317px;
+	border: none;
+	outline: none;
+}
+
+
+.MainMenu__ControlSearchImg {
+	margin-left: 3px;
+}

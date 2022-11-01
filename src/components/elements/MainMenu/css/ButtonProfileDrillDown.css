@@ -1,0 +1,12 @@
+.MainMenu__ButtonProfileDrillDown {
+    display: flex;	
+	height: 40px;	    	
+    align-items: center;	
+	justify-content: center;    
+}
+
+.MainMenu__ButtonProfileDrillDownImg {
+	display: flex;
+	width: 24px;
+	height: 24px;	
+}

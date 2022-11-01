@@ -1,9 +1,26 @@
 import ReactDOM from 'react-dom';
 import {PageCatigories} from "./components/pages/PageCatigories";
 import {PageCatigory} from "./components/pages/PageCatigory";
-import {MainMenu} from "./components/elements/MainMenu";
-import {Footer} from "./components/elements/Footer";
+import {MainMenu} from "./components/pages/MainMenu";
+import {Footer} from "./components/pages/Footer";
 import './fonts/Rubik.css';
+
+
+/* 
+чтобы загрузить png, нужно создать кастомную папку с типами "types" и
+
+создать там файл custom.d.ts:
+
+declare module "*.png" {
+  const value: any;
+  export = value;
+}
+
+tsconfig.json:
+"include": ["./src", "./types"],
+
+*/
+
 
 import {
 	BrowserRouter as Router,

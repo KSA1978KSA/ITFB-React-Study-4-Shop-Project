@@ -2,8 +2,6 @@ import React from 'react';
 
 import "./css/PageCatigory.css";
 
-import {MainMenu} from "../elements/MainMenu";
-
 
 import {	
 	useNavigate
