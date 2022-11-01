@@ -1,6 +1,6 @@
 import React from 'react';
 import "./css/PageCatigories.css";
-import {CatigoryCard} from "../elements/CatigoryCard/CatigoryCard";
+import {CatigoryCard} from "../elements/PageCatigories/CatigoryCard";
 
 /* 
 чтобы загрузить png, нужно создать кастомную папку с типами "types" и
