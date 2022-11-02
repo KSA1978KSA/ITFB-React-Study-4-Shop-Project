@@ -1,6 +1,6 @@
 import React from 'react'; 
 
-import "./css/ButtonProfile.css";
+import "./css/MainMenu_ButtonProfile.css";
 
 function ButtonProfile (props: any) {
 

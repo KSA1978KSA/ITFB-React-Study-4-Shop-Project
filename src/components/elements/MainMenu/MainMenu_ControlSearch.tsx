@@ -1,6 +1,6 @@
 import React from 'react'; 
 
-import "./css/ControlSearch.css";
+import "./css/MainMenu_ControlSearch.css";
 import icon_search from "../../../pictures/icon_search.png";
 
 function ControlSearch (props: any) {

@@ -1,6 +1,6 @@
 import React from 'react'; 
 
-import "./css/ButtonWithIcon.css";
+import "./css/MainMenu_ButtonWithIcon.css";
 
 import icon_heart from "../../../pictures/icon_heart.png";
 import icon_package from "../../../pictures/icon_package.png";

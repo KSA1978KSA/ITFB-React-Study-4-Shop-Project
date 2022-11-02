@@ -1,6 +1,6 @@
 import React from 'react'; 
 
-import "./css/CatigoryCard.css";
+import "./css/PageCatigories_CatigoryCard.css";
 
 
 //--- Компонент с тенью

@@ -1,7 +1,7 @@
 import React from 'react'; 
 
-import "./css/ButtonsWithIconArray.css";
-import {ButtonWithIcon} from "./ButtonWithIcon";
+import "./css/MainMenu_ButtonWithIconArray.css";
+import {ButtonWithIcon} from "./MainMenu_ButtonWithIcon";
 
 function ButtonsWithIconArray (props: any) {
 

@@ -1,8 +1,8 @@
 import React from 'react'; 
 
-import "./css/ElementTab.css";
+import "./css/MainMenu_ElementTab.css";
 
-function ElementTab (props: any) {
+function MainMenuElementTab (props: any) {
     let jsxElement: JSX.Element;
 
 
@@ -36,4 +36,4 @@ function ElementTab (props: any) {
 		jsxElement	
     )
 }
-export {ElementTab};      
+export {MainMenuElementTab};      
