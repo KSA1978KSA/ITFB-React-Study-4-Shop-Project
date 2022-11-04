@@ -8,7 +8,7 @@ import {ButtonProfileDrillDown} from "../elements/MainMenu/MainMenu_ButtonProfil
 import {ButtonCatalogeList} from "../elements/MainMenu/MainMenu_ButtonCatalogeList";
 import {ControlSearch} from "../elements/MainMenu/MainMenu_ControlSearch";
 import {ButtonsWithIconArray} from "../elements/MainMenu/MainMenu_ButtonithIconArray";
-import {MainMenuElementTab} from "../elements/MainMenu/MainMenu_ElementTab";
+import {Global_Tab} from "../elements/Global/Global_Tab";
 
 function MainMenu () {
 
@@ -16,22 +16,22 @@ function MainMenu () {
 	return (
 		<div className='MainMenu'>
 			<div className='MainMenuContainer'>				
-				<MainMenuElementTab tabVolume={116} />				
+				<Global_Tab tabVolume={116} />				
 				<img className='MainMenu__Merch' src={merch1} alt="" aria-hidden="true" data-noaft="" />  
 
-				<MainMenuElementTab tabVolume={40} />
+				<Global_Tab tabVolume={40} />
 				<ButtonCatalogeList />
 
-				<MainMenuElementTab tabVolume={16} />
+				<Global_Tab tabVolume={16} />
 				<ControlSearch />
 
-				<MainMenuElementTab tabVolume={40} /> 
+				<Global_Tab tabVolume={40} /> 
 				<ButtonsWithIconArray />
 
-				<MainMenuElementTab tabVolume={40} />
+				<Global_Tab tabVolume={40} />
 				<ButtonProfile buttonIcon={profileIcon1} buttonText={"Макакин"} />
 
-				<MainMenuElementTab tabVolume={24} /> 
+				<Global_Tab tabVolume={24} /> 
 				<ButtonProfileDrillDown />
 			</div>      
 		</div>

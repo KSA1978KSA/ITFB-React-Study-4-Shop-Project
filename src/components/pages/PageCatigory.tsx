@@ -1,6 +1,7 @@
 import React from 'react';
 
 import "./css/PageCatigory.css";
+import {PageCatigory_Filter1} from "../elements/PageCatigory/PageCatigory_Filter1";
 
 
 import {	
@@ -13,8 +14,19 @@ function PageCatigory () {
 	const navigate = useNavigate();
 
 	return (
-		<div className='PageCatigory'>			
-			<div>PageCatigory</div> 
+		<div>			
+			<div className='PageCatigoryPath'>	
+			<div>Главная</div>
+			<div>{"/"}</div>
+			<div>Каталог</div>
+			<div>{"/"}</div>
+			<div>Молоко, сыр, яйцо</div>
+		</div>	
+		<div className='PageCatigoryHeader'>	
+			Молоко, сыр, яйцо
+		</div>	
+		<PageCatigory_Filter1 />
+
 			<button
               onClick={()=>{
                 navigate(`/PageCatigories`);
