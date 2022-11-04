@@ -4,6 +4,7 @@ import {PageCatigory} from "./components/pages/PageCatigory";
 import {MainMenu} from "./components/pages/MainMenu";
 import {Footer} from "./components/pages/Footer";
 import './fonts/Rubik.css';
+import "./components/pages/css/index.css";
 
 
 /* 
@@ -33,20 +34,32 @@ ReactDOM.render(
 	[        		
 		<Router>
 			<MainMenu />
-			<Routes>
-				<Route path="/PageCatigories">
-					<Route index element={<PageCatigories />} />					
-				</Route>
+			<div className='Page'>			
+				<div className='PageWrapper'>			
+					<div className='PageWrapper__Tab116'/>
+					
+					<div className='PageContainer'>
 
-				<Route path="/PageCatigory">
-					<Route index element={<PageCatigory />} />					
-				</Route>
+						<Routes>
+							<Route path="/PageCatigories">
+								<Route index element={<PageCatigories />} />					
+							</Route>
 
-				<Route
-					path="*"
-					element={<Navigate to="/PageCatigories" replace />}
-					/>				
-			</Routes>			
+							<Route path="/PageCatigory">
+								<Route index element={<PageCatigory />} />					
+							</Route>
+
+							<Route
+								path="*"
+								element={<Navigate to="/PageCatigory" replace />}
+								/>				
+						</Routes>
+
+					</div>	
+
+					<div className='PageBottom' />							
+				</div>
+			</div>
 			<Footer />
 		</Router>
 	],

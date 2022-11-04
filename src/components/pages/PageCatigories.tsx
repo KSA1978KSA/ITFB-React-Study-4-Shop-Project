@@ -41,10 +41,7 @@ function PageCatigories () {
 	const navigate = useNavigate();
 
 	return (
-		<div className='PageCatigories'>			
-			<div className='PageCatigoriesWrapper'>			
-			<div className='PageCatigoriesWrapper__Tab116'/>
-				<div className='PageCatigoriesContainer'>
+		<div>			
 					<div className='PageCatigoriesPath'>	
 						<div>Главная</div>
 						<div>{"/"}</div>
@@ -137,9 +134,6 @@ function PageCatigories () {
 
 
 						</div>							
-				</div>	
-				<div className='PageCatigoriesBottom' />		
-			</div>
 		</div>
 	)
 }

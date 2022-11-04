@@ -1,33 +1,4 @@
-.PageCatigories {
-	display: flex;	
-	align-items: center;	
-	justify-content: center;	
-	font-family: Rubik;		
-	background: #E5E5E5;
-}      
-
-.PageCatigoriesWrapper__Tab116 {
-	display: flex;
-	width: 116px;
-}
-    
-.PageCatigoriesWrapper {
-	display: flex;		
-	align-items: center;	
-	font-size: 36px; 	
-	width: 1440px;
-	background: #FBF8EC;
-}      
-
-.PageCatigoriesContainer {
-	display: flex;		
-	justify-content: center;
-	font-size: 36px; 
-	flex-direction: column;
-	gap: 10px;	
-	width: 1208px;	
-}
-    
+   
 
 .PageCatigoriesPath {
 	margin-top: 10px;
@@ -56,12 +27,4 @@
 	gap: 40px;
 	flex-wrap: wrap;
 }
-
-.PageCatigoriesBottom {
-	display: flex;	
-	height: 40px;	
-}
-
-
-
 
