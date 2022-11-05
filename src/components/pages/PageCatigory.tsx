@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "./css/PageCatigory.css";
-import {PageCatigory_Filter1} from "../elements/PageCatigory/PageCatigory_Filter1";
+import {PageCatigory_FilterStatic} from "../elements/PageCatigory/PageCatigory_FilterStatic";
 
 
 import {	
@@ -25,7 +25,11 @@ function PageCatigory () {
 		<div className='PageCatigoryHeader'>	
 			Молоко, сыр, яйцо
 		</div>	
-		<PageCatigory_Filter1 />
+
+		<div className='PageCatigoryBody'>
+			<PageCatigory_FilterStatic />
+		</div>
+		
 
 			<button
               onClick={()=>{
