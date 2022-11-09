@@ -42,16 +42,16 @@ function PageCatigories () {
 
 	return (
 		<div>			
-		<div className='PageCatigoriesPath'>	
+		<div className='PageCatigories__Path'>	
 			<div>Главная</div>
 			<div>{"/"}</div>
 			<div>Каталог</div>
 		</div>	
-		<div className='PageCatigoriesHeader'>	
+		<div className='PageCatigories__Header'>	
 			Каталог
 		</div>		
 		
-		<div className='PageCatigoriesBody'>
+		<div className='PageCatigories__Body'>
 
 			<CatigoryCard  
 				image={image1}

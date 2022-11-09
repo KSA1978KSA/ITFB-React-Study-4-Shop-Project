@@ -6,7 +6,7 @@ import profileIcon1 from "../../pictures/profileIcon1.png";
 import {ButtonProfile} from "../elements/MainMenu/MainMenu_ButtonProfile";
 import {ButtonProfileDrillDown} from "../elements/MainMenu/MainMenu_ButtonProfileDrillDown";
 import {ButtonCatalogeList} from "../elements/MainMenu/MainMenu_ButtonCatalogeList";
-import {ControlSearch} from "../elements/MainMenu/MainMenu_ControlSearch";
+import {MainMenu_ControlSearch} from "../elements/MainMenu/MainMenu_ControlSearch";
 import {ButtonsWithIconArray} from "../elements/MainMenu/MainMenu_ButtonithIconArray";
 import {Global_Tab} from "../elements/Global/Global_Tab";
 
@@ -23,7 +23,7 @@ function MainMenu () {
 				<ButtonCatalogeList />
 
 				<Global_Tab tabVolume={16} />
-				<ControlSearch />
+				<MainMenu_ControlSearch />
 
 				<Global_Tab tabVolume={40} /> 
 				<ButtonsWithIconArray />

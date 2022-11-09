@@ -1,5 +1,5 @@
 
-.PageCatigory__FilterStaticButton {
+.Global__StaticButton {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@
     border-radius: 4px;
 }
 
-.PageCatigory__FilterStaticButtonText {
+.Global__StaticButtonText {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,4 +17,5 @@
     line-height: 150%;
     margin-left: 24px;
     margin-right: 24px;
+    color: #606060;
 }

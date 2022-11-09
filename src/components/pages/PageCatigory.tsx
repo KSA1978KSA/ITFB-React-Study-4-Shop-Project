@@ -2,6 +2,10 @@ import React from 'react';
 
 import "./css/PageCatigory.css";
 import {PageCatigory_FilterStatic} from "../elements/PageCatigory/PageCatigory_FilterStatic";
+import {PageCatigory_ProductsWrapper} from "../elements/PageCatigory/PageCatigory_ProductsWrapper";
+import {PageCatigory_AddedFilters} from "../elements/PageCatigory/PageCatigory_AddedFilters";
+import {PageCatigory_FilterName} from "../elements/PageCatigory/PageCatigory_FilterName";
+import {PageCatigory_FilterPrice} from "../elements/PageCatigory/PageCatigory_FilterPrice";
 
 
 import {	
@@ -15,19 +19,31 @@ function PageCatigory () {
 
 	return (
 		<div>			
-			<div className='PageCatigoryPath'>	
+			<div className='PageCatigory__Path'>	
 			<div>Главная</div>
 			<div>{"/"}</div>
 			<div>Каталог</div>
 			<div>{"/"}</div>
 			<div>Молоко, сыр, яйцо</div>
 		</div>	
-		<div className='PageCatigoryHeader'>	
+		<div className='PageCatigory__Header'>	
 			Молоко, сыр, яйцо
 		</div>	
 
-		<div className='PageCatigoryBody'>
+		<div className='PageCatigory__Body'>
 			<PageCatigory_FilterStatic />
+		</div>
+
+		<div className='PageCatigory__BodyPanelWrapper'>
+			<div className='PageCatigory__BodyPanelFilter'>
+				<PageCatigory_FilterName />
+				<PageCatigory_FilterPrice />
+			</div>
+
+			<div className='PageCatigory__BodyPanelProduct'>
+				<PageCatigory_AddedFilters />
+				<PageCatigory_ProductsWrapper />
+			</div>
 		</div>
 		
 

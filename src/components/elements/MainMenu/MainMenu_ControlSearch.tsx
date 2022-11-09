@@ -3,7 +3,7 @@ import React from 'react';
 import "./css/MainMenu_ControlSearch.css";
 import icon_search from "../../../pictures/icon_search.png";
 
-function ControlSearch (props: any) {
+function MainMenu_ControlSearch (props: any) {
 
 	return (		
 		<div className='MainMenu__ControlSearch'>
@@ -15,4 +15,4 @@ function ControlSearch (props: any) {
         </div>	
 	)
 }
-export {ControlSearch};      
+export {MainMenu_ControlSearch};      

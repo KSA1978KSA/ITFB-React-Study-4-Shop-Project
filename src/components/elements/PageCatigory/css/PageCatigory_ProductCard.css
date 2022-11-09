@@ -1,0 +1,8 @@
+
+
+.PageCatigory__ProductCard {
+	display: flex;
+	width: 272px;
+    height: 349px;
+    background-color: bisque;
+}

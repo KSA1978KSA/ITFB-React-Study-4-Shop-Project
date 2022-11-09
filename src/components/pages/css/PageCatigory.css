@@ -1,5 +1,5 @@
 
-.PageCatigoryPath {
+.PageCatigory__Path {
 	margin-top: 17px;
 	display: flex;	
 	font-size: 12px;
@@ -10,7 +10,7 @@
 	color: #414141;
 }
 
-.PageCatigoryHeader {	
+.PageCatigory__Header {	
 	display: flex;	
 	font-size: 64px; 	
 	font-style: normal;
@@ -18,12 +18,37 @@
 	color: #414141;
 }
 
-.PageCatigoryBody {
+.PageCatigory__Body {
 	width: 1208px;
 	margin-top: 60px;
 	display: flex;
 	height: 100%;
 	gap: 40px;
 	flex-wrap: wrap;
+}
+
+
+.PageCatigory__BodyPanelWrapper {
+	display: flex;	
+	flex-direction: row;
+	margin-top: 40px;
+	gap: 40px;
+}
+
+.PageCatigory__BodyPanelFilter {
+	display: flex;	
+	flex-direction: column;
+	width: 272px;
+	height: 546px;
+	border: none;
+	border-width: 1px;
+}
+
+.PageCatigory__BodyPanelProduct {
+	display: flex;	
+	flex-direction: column;
+	width: 896px;
+	border: none;
+	border-width: 1px;
 }
 

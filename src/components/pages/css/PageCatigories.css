@@ -1,6 +1,6 @@
    
 
-.PageCatigoriesPath {
+.PageCatigories__Path {
 	margin-top: 17px;
 	display: flex;	
 	font-size: 12px;
@@ -11,7 +11,7 @@
 	color: #250c0c;
 }
 
-.PageCatigoriesHeader {	
+.PageCatigories__Header {	
 	display: flex;	
 	font-size: 64px; 	
 	font-style: normal;
@@ -19,7 +19,7 @@
 	color: #414141;
 }
 
-.PageCatigoriesBody {
+.PageCatigories__Body {
 	width: 1208px;
 	margin-top: 60px;
 	display: flex;
