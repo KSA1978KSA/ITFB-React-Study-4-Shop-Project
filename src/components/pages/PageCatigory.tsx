@@ -43,9 +43,14 @@ function PageCatigory () {
 				<PageCatigory_FilterPrice />
 				<PageCatigory_FilteredCatigories />
 				<PageCatigory_FilterInStock />
-				
+
 				<div className='PageCatigory__BodyPanelApplyFilter' >
-					<Global_SimpleButton buttonText={"Применить"}/>
+					<Global_SimpleButton 
+						buttonText={"Применить"}
+						buttonColor={"#FF6633"}
+						textColor={"#FFFFFF"}
+						textSize={"16px"}
+						/>
 				</div>
 			</div>
 
