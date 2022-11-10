@@ -9,7 +9,7 @@ import {PageCatigory_FilterPrice} from "../elements/PageCatigory/PageCatigory_Fi
 import {PageCatigory_FilteredCatigories} from "../elements/PageCatigory/PageCatigory_FilteredCatigories";
 import {PageCatigory_FilterInStock} from "../elements/PageCatigory/PageCatigory_FilterInStock";
 import {Global_SimpleButton} from "../elements/Global/Global_SimpleButton";
-
+import {Global_PageNavigator} from "../elements/Global/Global_PageNavigator";
 
 import {	
 	useNavigate
@@ -56,9 +56,22 @@ function PageCatigory () {
 
 			
 
-			<div className='PageCatigory__BodyPanelProduct'>
+			<div className='PageCatigory__BodyPanelProducts'>
 				<PageCatigory_AddedFilters />
 				<PageCatigory_ProductsWrapper />
+				<div className='PageCatigory__ShowMore'>
+					<div className='PageCatigory__ShowMoreWrapper'>					
+					<Global_SimpleButton 
+						buttonText={"Показать ещё"}
+						textSize={"16px"}
+						/>
+					</div>					
+				</div>
+
+				<div className='PageCatigory__PageNavigator'>
+					<Global_PageNavigator />
+				</div>
+
 			</div>
 		</div>
 		

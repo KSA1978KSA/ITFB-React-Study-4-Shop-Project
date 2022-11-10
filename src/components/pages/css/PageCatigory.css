@@ -44,7 +44,7 @@
 	border-width: 1px;
 }
 
-.PageCatigory__BodyPanelProduct {
+.PageCatigory__BodyPanelProducts {
 	display: flex;	
 	flex-direction: column;
 	width: 896px;
@@ -56,4 +56,31 @@
 	display: flex;
 	height: 40px;
 	margin-top: 40px;
+}
+
+.PageCatigory__ShowMore {
+	display: flex;
+	align-items: center;	
+	justify-content: center;
+	margin-top: 40px;
+	height: 40px;
+	width: 100%;
+}
+
+.PageCatigory__ShowMoreWrapper {
+	display: flex;
+	align-items: center;	
+	justify-content: center;	
+	height: 100%;
+	width: 157px;
+}
+
+
+.PageCatigory__PageNavigator {
+	display: flex;
+	align-items: center;	
+	justify-content: center;
+	margin-top: 48px;
+	height: 40px;
+	width: 100%;
 }

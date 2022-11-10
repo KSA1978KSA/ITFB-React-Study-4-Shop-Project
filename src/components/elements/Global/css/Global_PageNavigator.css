@@ -1,0 +1,29 @@
+.Global__PageNavigator {
+    display: flex;     
+    gap: 32px;   
+}
+
+
+.Global__PageNavigatorLeftButtons {
+    display: flex;
+    gap: 32px;
+}
+
+.Global__PageNavigatorPageButtons {
+    display: flex;
+    gap: 32px;
+}
+
+.Global__PageNavigatorRightButtons {
+    display: flex;
+    gap: 32px;
+}
+
+.Global__PageNavigatorButton {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;    
+    align-items: center;
+    color: #606060;
+}
