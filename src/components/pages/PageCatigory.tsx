@@ -6,6 +6,9 @@ import {PageCatigory_ProductsWrapper} from "../elements/PageCatigory/PageCatigor
 import {PageCatigory_AddedFilters} from "../elements/PageCatigory/PageCatigory_AddedFilters";
 import {PageCatigory_FilterName} from "../elements/PageCatigory/PageCatigory_FilterName";
 import {PageCatigory_FilterPrice} from "../elements/PageCatigory/PageCatigory_FilterPrice";
+import {PageCatigory_FilteredCatigories} from "../elements/PageCatigory/PageCatigory_FilteredCatigories";
+import {PageCatigory_FilterInStock} from "../elements/PageCatigory/PageCatigory_FilterInStock";
+import {Global_SimpleButton} from "../elements/Global/Global_SimpleButton";
 
 
 import {	
@@ -38,7 +41,15 @@ function PageCatigory () {
 			<div className='PageCatigory__BodyPanelFilter'>
 				<PageCatigory_FilterName />
 				<PageCatigory_FilterPrice />
+				<PageCatigory_FilteredCatigories />
+				<PageCatigory_FilterInStock />
+				
+				<div className='PageCatigory__BodyPanelApplyFilter' >
+					<Global_SimpleButton buttonText={"Применить"}/>
+				</div>
 			</div>
+
+			
 
 			<div className='PageCatigory__BodyPanelProduct'>
 				<PageCatigory_AddedFilters />

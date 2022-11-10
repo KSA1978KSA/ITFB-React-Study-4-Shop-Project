@@ -23,14 +23,14 @@
 .PageCatigory__FilterPriceWrapper3 {
 	display: flex;	
 	height: 24px;
-	border: solid;
+	border: none;
 	border-width: 1px;
 	margin-top: 13px;
 }
 
 .PageCatigory__FilterPriceName {
 	display: flex;		
-	width: 50%;
+	width: 136px;
 }
 
 .PageCatigory__FilterPriceNameText {
@@ -44,7 +44,8 @@
 
 .PageCatigory__FilterPriceButtonClear {
 	display: flex;		
-	width: 50%;
+	width: 85px;
+	padding-left: 51px;
 	justify-content: right;
 }
 

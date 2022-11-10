@@ -1,0 +1,15 @@
+.PageCatigory__FilteredCatigories {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 30px
+}
+
+.PageCatigory__FilteredCatigoriesName {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;   
+}
