@@ -53,11 +53,11 @@ function PageCatigories () {
 		</div>		
 		
 		<div className='PageCatigories__Body'>
-
+			
 			<CatigoryCard  
 				image={image1}
 				cardType={0}
-				CatigoryName={"Молоко, сыр, яйцо"}
+				CatigoryName={"Молоко, сыр, яйцо"}				
 				/>
 
 			<CatigoryCard  
