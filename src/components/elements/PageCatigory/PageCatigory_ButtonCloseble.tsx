@@ -1,7 +1,7 @@
 import React from 'react'; 
 
 import "./css/PageCatigory_ButtonCloseble.css";
-import icon_x from "../../../pictures/icon_x.png";
+import icon_x from "../../../assets/pictures/icon_x.png";
 
 function PageCatigory_ButtonCloseble (props: any) {
 

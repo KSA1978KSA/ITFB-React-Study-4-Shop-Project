@@ -2,10 +2,10 @@ import React from 'react';
 
 import "./css/Footer_ButtonSocialNetwork.css";
 
-import icon_social_instagram from "../../../pictures/icon_social_instagram.png";
-import icon_social_vkontakte from "../../../pictures/icon_social_vkontakte.png";
-import icon_social_facebook from "../../../pictures/icon_social_facebook.png";
-import icon_social_ok from "../../../pictures/icon_social_ok.png";
+import icon_social_instagram from "../../../assets/pictures/icon_social_instagram.png";
+import icon_social_vkontakte from "../../../assets/pictures/icon_social_vkontakte.png";
+import icon_social_facebook from "../../../assets/pictures/icon_social_facebook.png";
+import icon_social_ok from "../../../assets/pictures/icon_social_ok.png";
 
 
 

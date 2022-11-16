@@ -1,6 +1,6 @@
 import React from 'react';
 import "./css/PageCatigory_ProductCard.css";
-import icon_heart from "../../../pictures/icon_heart.png";
+import icon_heart from "../../../assets/pictures/icon_heart.png";
 import {Global_Tab} from "../Global/Global_Tab";
 import {Global_RatingStars} from "../Global/Global_RatingStars";
 import {Global_SimpleStickyButton} from "../Global/Global_SimpleStickyButton";

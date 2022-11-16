@@ -24,64 +24,59 @@ function PageCatigory () {
 	return (
 		<div>			
 			<div className='PageCatigory__Path'>	
-			<div>Главная</div>
-			<div>{"/"}</div>
-			<div>Каталог</div>
-			<div>{"/"}</div>
-			<div>Молоко, сыр, яйцо</div>
-		</div>	
-		<div className='PageCatigory__Header'>	
-			Молоко, сыр, яйцо
-		</div>	
+				<div>Главная</div>
+				<div>{"/"}</div>
+				<div>Каталог</div>
+				<div>{"/"}</div>
+				<div>Молоко, сыр, яйцо</div>
+			</div>	
 
-		<div className='PageCatigory__Body'>
-			<PageCatigory_FilterStatic />
-		</div>
+			<div className='PageCatigory__Header'>	
+				Молоко, сыр, яйцо
+			</div>	
 
-		<div className='PageCatigory__BodyPanelWrapper'>
-			<div className='PageCatigory__BodyPanelFilter'>
-				<PageCatigory_FilterName />
-				<PageCatigory_FilterPrice />
-				<PageCatigory_FilteredCatigories />
-				<PageCatigory_FilterInStock />
-
-				<div className='PageCatigory__BodyPanelApplyFilter' >
-					<Global_SimpleButton 
-						buttonText={"Применить"}
-						buttonColor={"#FF6633"}
-						textColor={"#FFFFFF"}
-						textSize={"16px"}
-						/>
-				</div>
+			<div className='PageCatigory__Body'>
+				<PageCatigory_FilterStatic />
 			</div>
 
-			
+			<div className='PageCatigory__BodyPanelWrapper'>
+				<div className='PageCatigory__BodyPanelFilter'>
+					<PageCatigory_FilterName />
+					<PageCatigory_FilterPrice />
+					<PageCatigory_FilteredCatigories />
+					<PageCatigory_FilterInStock />
 
-			<div className='PageCatigory__BodyPanelProducts'>
-				<PageCatigory_AddedFilters />
-				<PageCatigory_ProductsWrapper />
-				<div className='PageCatigory__ShowMore'>
-					<div className='PageCatigory__ShowMoreWrapper'>					
-					<Global_SimpleButton 
-						buttonText={"Показать ещё"}
-						textSize={"16px"}
-						/>
-					</div>					
+					<div className='PageCatigory__BodyPanelApplyFilter' >
+						<Global_SimpleButton 
+							buttonText={"Применить"}
+							buttonColor={"#FF6633"}
+							textColor={"#FFFFFF"}
+							textSize={"16px"}
+							/>
+					</div>
 				</div>
 
-				<div className='PageCatigory__PageNavigator'>
-					<Global_PageNavigator />
-				</div>
+				
 
+				<div className='PageCatigory__BodyPanelProducts'>
+					<PageCatigory_AddedFilters />
+					<PageCatigory_ProductsWrapper />
+					<div className='PageCatigory__ShowMore'>
+						<div className='PageCatigory__ShowMoreWrapper'>					
+							<Global_SimpleButton 
+								buttonText={"Показать ещё"}
+								textSize={"16px"}
+							/>
+						</div>					
+					</div>
+
+					<div className='PageCatigory__PageNavigator'>
+						<Global_PageNavigator />
+					</div>
+
+				</div>
 			</div>
-		</div>
-		
-
-			<button
-              onClick={()=>{
-                navigate(`/PageCatigories`);
-              }}
-            >Home</button>            
+		         
 		</div>
 	)
 }

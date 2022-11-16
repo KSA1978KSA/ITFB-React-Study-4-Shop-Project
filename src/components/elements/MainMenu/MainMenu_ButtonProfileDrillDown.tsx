@@ -1,7 +1,7 @@
 import React from 'react'; 
 
 import "./css/MainMenu_ButtonProfileDrillDown.css";
-import icon_DrillDown from "../../../pictures/icon_DrillDown.png";
+import icon_DrillDown from "../../../assets/pictures/icon_DrillDown.png";
 
 function ButtonProfileDrillDown (props: any) {
 

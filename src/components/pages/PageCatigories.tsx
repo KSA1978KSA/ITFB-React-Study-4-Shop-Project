@@ -18,19 +18,19 @@ tsconfig.json:
 */
 
 
-import image1 from "../../pictures/img1.png";
-import image2 from "../../pictures/img2.png";
-import image3 from "../../pictures/img3.png";
-import image4 from "../../pictures/img4.png";
-import image5 from "../../pictures/img5.png";
-import image6 from "../../pictures/img6.png";
-import image7 from "../../pictures/img7.png";
-import image8 from "../../pictures/img8.png";
-import image9 from "../../pictures/img9.png";
-import image10 from "../../pictures/img10.png";
-import image11 from "../../pictures/img11.png";
-import image12 from "../../pictures/img12.png";
-import image13 from "../../pictures/img13.png";
+import image1 from "../../assets/pictures/img1.png";
+import image2 from "../../assets/pictures/img2.png";
+import image3 from "../../assets/pictures/img3.png";
+import image4 from "../../assets/pictures/img4.png";
+import image5 from "../../assets/pictures/img5.png";
+import image6 from "../../assets/pictures/img6.png";
+import image7 from "../../assets/pictures/img7.png";
+import image8 from "../../assets/pictures/img8.png";
+import image9 from "../../assets/pictures/img9.png";
+import image10 from "../../assets/pictures/img10.png";
+import image11 from "../../assets/pictures/img11.png";
+import image12 from "../../assets/pictures/img12.png";
+import image13 from "../../assets/pictures/img13.png";
 
 
 

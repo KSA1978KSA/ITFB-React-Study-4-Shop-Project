@@ -1,8 +1,8 @@
 import React from 'react';
 
 import "./css/MainMenu.css";
-import merch1 from "../../pictures/merch1.png";
-import profileIcon1 from "../../pictures/profileIcon1.png";
+import merch1 from "../../assets/pictures/merch1.png";
+import profileIcon1 from "../../assets/pictures/profileIcon1.png";
 import {ButtonProfile} from "../elements/MainMenu/MainMenu_ButtonProfile";
 import {ButtonProfileDrillDown} from "../elements/MainMenu/MainMenu_ButtonProfileDrillDown";
 import {ButtonCatalogeList} from "../elements/MainMenu/MainMenu_ButtonCatalogeList";

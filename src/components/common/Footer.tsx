@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "./css/Footer.css";
-import merch2 from "../../pictures/merch2.png";
+import merch2 from "../../assets/pictures/merch2.png";
 import {ButtonTextArray} from "../elements/Footer/Footer_ButtonTextArray";
 import {ButtonSocialNetworkArray} from "../elements/Footer/Footer_ButtonSocialNetworkArray";
 import {Global_Tab} from "../elements/Global/Global_Tab";

@@ -3,12 +3,12 @@ import "./css/PageCatigory_ProductsWrapper.css";
 import {PageCatigory_ProductCard} from "./PageCatigory_ProductCard";
 
 //--- временно загружаем сюда картинки, которые будут приходить с сервера
-import print_dorblu_1 from "../../../pictures/dinamic_prints/print_dorblu_1.png";
-import print_moloko_prostokvashino_1 from "../../../pictures/dinamic_prints/print_moloko_prostokvashino_1.png";
-import print_moloko_egorka_1 from "../../../pictures/dinamic_prints/print_moloko_egorka_1.png";
-import print_maslo_prostokvashino_1 from "../../../pictures/dinamic_prints/print_maslo_prostokvashino_1.png";
-import print_yogurt_fruttis_1 from "../../../pictures/dinamic_prints/print_yogurt_fruttis_1.png";
-import print_yogurt_fruttis_2 from "../../../pictures/dinamic_prints/print_yogurt_fruttis_2.png";
+import print_dorblu_1 from "../../../assets/pictures/dinamic_prints/print_dorblu_1.png";
+import print_moloko_prostokvashino_1 from "../../../assets/pictures/dinamic_prints/print_moloko_prostokvashino_1.png";
+import print_moloko_egorka_1 from "../../../assets/pictures/dinamic_prints/print_moloko_egorka_1.png";
+import print_maslo_prostokvashino_1 from "../../../assets/pictures/dinamic_prints/print_maslo_prostokvashino_1.png";
+import print_yogurt_fruttis_1 from "../../../assets/pictures/dinamic_prints/print_yogurt_fruttis_1.png";
+import print_yogurt_fruttis_2 from "../../../assets/pictures/dinamic_prints/print_yogurt_fruttis_2.png";
 
 
 

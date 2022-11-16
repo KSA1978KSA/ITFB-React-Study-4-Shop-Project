@@ -1,10 +1,10 @@
 import ReactDOM from 'react-dom';
 import {PageCatigories} from "./components/pages/PageCatigories";
 import {PageCatigory} from "./components/pages/PageCatigory";
-import {MainMenu} from "./components/pages/MainMenu";
-import {Footer} from "./components/pages/Footer";
-import './fonts/Rubik.css';
-import "./components/pages/css/index.css";
+import {MainMenu} from "./components/common/MainMenu";
+import {Footer} from "./components/common/Footer";
+import './assets/fonts/Rubik.css';
+import "./index.css";
 
 
 /* 
@@ -51,7 +51,7 @@ ReactDOM.render(
 
 							<Route
 								path="*"
-								element={<Navigate to="/PageCatigory" replace />}
+								element={<Navigate to="/PageCatigories" replace />}
 								/>				
 						</Routes>
 

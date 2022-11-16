@@ -2,6 +2,10 @@ import React from 'react';
 
 import "./css/PageCatigories_CatigoryCard.css";
 
+import {	
+	useNavigate
+  } from "react-router-dom";
+
 
 //--- Компонент с тенью
 function CardShadow (props: any) {
@@ -31,11 +35,17 @@ function CatigoryCard (props: any) {
 
     let jsxElement: JSX.Element;
 
+    const navigate = useNavigate();
+
 
     switch (props.cardType) {
         case 0:
             jsxElement = 
-                <div className='PageCatigoriesBody__CatigoryCard584'>
+                <div className='PageCatigoriesBody__CatigoryCard584'
+                    onClick={()=>{
+                        navigate(`/PageCatigory`);
+                    }}
+                >
                     <img className='CatigoryCardImg' src={props.image} alt="" aria-hidden="true" data-noaft="" />
                     <CardShadow shadowType={props.shadowType} /> 
                     <div className='CatigoryCardText'>{props.CatigoryName}</div>                   
@@ -45,7 +55,11 @@ function CatigoryCard (props: any) {
         
         case 1:
             jsxElement = 
-                <div className='PageCatigoriesBody__CatigoryCard272'>
+                <div className='PageCatigoriesBody__CatigoryCard272'
+                    onClick={()=>{
+                        navigate(`/PageCatigory`);
+                    }}
+                >
                     <img className='CatigoryCardImg' src={props.image} alt="" aria-hidden="true" data-noaft="" />      
                     <CardShadow shadowType={props.shadowType} />
                     <div className='CatigoryCardText'>{props.CatigoryName}</div>                   
@@ -55,7 +69,11 @@ function CatigoryCard (props: any) {
             
         default:
             jsxElement = 
-            <div className='PageCatigoriesBody__CatigoryCard584'>
+            <div className='PageCatigoriesBody__CatigoryCard584'
+                onClick={()=>{
+                    navigate(`/PageCatigory`);
+                }}
+            >
                 <img className='CatigoryCardImg' src={props.image} alt="" aria-hidden="true" data-noaft="" /> 
                 <CardShadow shadowType={props.shadowType} />
                 <div className='CatigoryCardText'>{props.CatigoryName}</div>                   

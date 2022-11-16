@@ -2,9 +2,9 @@ import React from 'react';
 
 import "./css/MainMenu_ButtonWithIcon.css";
 
-import icon_heart from "../../../pictures/icon_heart.png";
-import icon_package from "../../../pictures/icon_package.png";
-import icon_basket from "../../../pictures/icon_basket.png";
+import icon_heart from "../../../assets/pictures/icon_heart.png";
+import icon_package from "../../../assets/pictures/icon_package.png";
+import icon_basket from "../../../assets/pictures/icon_basket.png";
 
 
 function ButtonWithIcon (props: any) {

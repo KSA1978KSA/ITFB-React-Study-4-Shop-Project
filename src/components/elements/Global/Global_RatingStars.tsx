@@ -1,5 +1,5 @@
 import React from 'react'; 
-import icon_star_1 from "../../../pictures/icon_star_1.png"
+import icon_star_1 from "../../../assets/pictures/icon_star_1.png"
 
 function Global_RatingStars (props: any) {
     let jsxElement: JSX.Element;

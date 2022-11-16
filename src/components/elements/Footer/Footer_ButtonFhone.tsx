@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./css/Footer_ButtonFhone.css";
 
-import icon_phone from "../../../pictures/icon_phone.png";
+import icon_phone from "../../../assets/pictures/icon_phone.png";
 
 
 function ButtonFhone (props: any) {    
