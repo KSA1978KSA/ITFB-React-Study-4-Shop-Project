@@ -1,66 +1,66 @@
 .PageCatigory__FilterPrice {
-	display: flex;	
-	flex-direction: column;
-	margin-top: 44px;		
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
 }
 
 .PageCatigory__FilterPriceWrapper1 {
-	display: flex;	
-	height: 24px;
-	border: none;
-	border-width: 1px;	
+  display: flex;
+  height: 24px;
+  border: none;
+  border-width: 1px;
 }
 
 .PageCatigory__FilterPriceWrapper2 {
-	display: flex;	
-	height: 40px;
-	border: none;
-	border-width: 1px;
-	margin-top: 17px;
-	align-items: center;
+  display: flex;
+  height: 40px;
+  border: none;
+  border-width: 1px;
+  margin-top: 17px;
+  align-items: center;
 }
 
 .PageCatigory__FilterPriceWrapper3 {
-	display: flex;	
-	height: 24px;
-	border: none;
-	border-width: 1px;
-	margin-top: 13px;
+  display: flex;
+  height: 24px;
+  border: none;
+  border-width: 1px;
+  margin-top: 13px;
 }
 
 .PageCatigory__FilterPriceName {
-	display: flex;		
-	width: 136px;
+  display: flex;
+  width: 136px;
 }
 
 .PageCatigory__FilterPriceNameText {
-	display: flex;			
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 150%;
-	color: #000000;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
 }
 
 .PageCatigory__FilterPriceButtonClear {
-	display: flex;		
-	width: 85px;
-	padding-left: 51px;
-	justify-content: right;
+  display: flex;
+  width: 85px;
+  padding-left: 51px;
+  justify-content: right;
 }
 
 .PageCatigory__FilterPriceInput {
-	display: flex;
-	width: 124px;
+  display: flex;
+  width: 124px;
 }
 
 .PageCatigory__FilterPriceTire {
-	display: flex;		
-	width: 13px;
-	height: 0px;
-	color: #000000;
-	margin-left: 4.5px;
-	margin-right: 4.5px;
-	border: solid;
-    border-width: 1px;
+  display: flex;
+  width: 13px;
+  height: 0px;
+  color: #000000;
+  margin-left: 4.5px;
+  margin-right: 4.5px;
+  border: solid;
+  border-width: 1px;
 }

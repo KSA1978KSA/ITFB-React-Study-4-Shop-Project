@@ -1,21 +1,21 @@
 .Footer__ButtonPhone {
-    display: flex;		
-    align-items: center;	
-	justify-content: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    color: #414141;
-    gap: 10.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+  gap: 10.5px;
 }
 
 .Footer__ButtonPhoneImg {
-    display: flex;
-    height: 24px;
-    width: 24px;
+  display: flex;
+  height: 24px;
+  width: 24px;
 }
 
 .Footer__ButtonPhoneText {
-    display: flex;
+  display: flex;
 }

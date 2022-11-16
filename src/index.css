@@ -1,34 +1,34 @@
 .Page {
-	display: flex;	
-	align-items: center;	
-	justify-content: center;	
-	font-family: Rubik;		
-	background: #E5E5E5;
-}      
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Rubik;
+  background: #e5e5e5;
+}
 
 .PageWrapper__Tab116 {
-	display: flex;
-	width: 116px;
+  display: flex;
+  width: 116px;
 }
-    
+
 .PageWrapper {
-	display: flex;		
-	align-items: center;	
-	font-size: 36px; 	
-	width: 1440px;
-	background: #FBF8EC;
-}      
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  width: 1440px;
+  background: #fbf8ec;
+}
 
 .PageContainer {
-	display: flex;		
-	justify-content: center;
-	font-size: 36px; 
-	flex-direction: column;
-	gap: 10px;	
-	width: 1208px;	
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  flex-direction: column;
+  gap: 10px;
+  width: 1208px;
 }
-    
+
 .PageBottom {
-	display: flex;	
-	height: 40px;	
+  display: flex;
+  height: 40px;
 }

@@ -1,86 +1,83 @@
-
 .PageCatigory__Path {
-	margin-top: 17px;
-	display: flex;	
-	font-size: 12px;
-	font-weight: 400;
-	line-height: 18px;
-	flex-direction: row;
-	gap: 10px;	
-	color: #414141;
+  margin-top: 17px;
+  display: flex;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  flex-direction: row;
+  gap: 10px;
+  color: #414141;
 }
 
-.PageCatigory__Header {	
-	display: flex;	
-	font-size: 64px; 	
-	font-style: normal;
-	font-weight: 700;
-	color: #414141;
+.PageCatigory__Header {
+  display: flex;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  color: #414141;
 }
 
 .PageCatigory__Body {
-	width: 1208px;
-	margin-top: 60px;
-	display: flex;
-	height: 100%;
-	gap: 40px;
-	flex-wrap: wrap;
+  width: 1208px;
+  margin-top: 60px;
+  display: flex;
+  height: 100%;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
-
 .PageCatigory__BodyPanelWrapper {
-	display: flex;	
-	flex-direction: row;
-	margin-top: 40px;
-	gap: 40px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  gap: 40px;
 }
 
 .PageCatigory__BodyPanelFilter {
-	display: flex;	
-	flex-direction: column;
-	width: 272px;
-	height: 546px;
-	border: none;
-	border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  height: 546px;
+  border: none;
+  border-width: 1px;
 }
 
 .PageCatigory__BodyPanelProducts {
-	display: flex;	
-	flex-direction: column;
-	width: 896px;
-	border: none;
-	border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  width: 896px;
+  border: none;
+  border-width: 1px;
 }
 
 .PageCatigory__BodyPanelApplyFilter {
-	display: flex;
-	height: 40px;
-	margin-top: 40px;
+  display: flex;
+  height: 40px;
+  margin-top: 40px;
 }
 
 .PageCatigory__ShowMore {
-	display: flex;
-	align-items: center;	
-	justify-content: center;
-	margin-top: 40px;
-	height: 40px;
-	width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  height: 40px;
+  width: 100%;
 }
 
 .PageCatigory__ShowMoreWrapper {
-	display: flex;
-	align-items: center;	
-	justify-content: center;	
-	height: 100%;
-	width: 157px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 157px;
 }
 
-
 .PageCatigory__PageNavigator {
-	display: flex;
-	align-items: center;	
-	justify-content: center;
-	margin-top: 48px;
-	height: 40px;
-	width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+  height: 40px;
+  width: 100%;
 }

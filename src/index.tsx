@@ -1,11 +1,10 @@
-import ReactDOM from 'react-dom';
-import {PageCatigories} from "./components/pages/PageCatigories";
-import {PageCatigory} from "./components/pages/PageCatigory";
-import {MainMenu} from "./components/common/MainMenu";
-import {Footer} from "./components/common/Footer";
-import './assets/fonts/Rubik.css';
+import ReactDOM from "react-dom";
+import { PageCatigories } from "./components/pages/PageCatigories";
+import { PageCatigory } from "./components/pages/PageCatigory";
+import { MainMenu } from "./components/common/MainMenu";
+import { Footer } from "./components/common/Footer";
+import "./assets/fonts/Rubik.css";
 import "./index.css";
-
 
 /* 
 чтобы загрузить png, нужно создать кастомную папку с типами "types" и
@@ -22,47 +21,43 @@ tsconfig.json:
 
 */
 
-
 import {
-	BrowserRouter as Router,
-	Routes,
-	Route,
-	Navigate,
-  } from "react-router-dom";
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 ReactDOM.render(
-	[        		
-		<Router>
-			<MainMenu />
-			<div className='Page'>			
-				<div className='PageWrapper'>			
-					<div className='PageWrapper__Tab116'/>
-					
-					<div className='PageContainer'>
+  [
+    <Router>
+      <MainMenu />
+      <div className="Page">
+        <div className="PageWrapper">
+          <div className="PageWrapper__Tab116" />
 
-						<Routes>
-							<Route path="/PageCatigories">
-								<Route index element={<PageCatigories />} />					
-							</Route>
+          <div className="PageContainer">
+            <Routes>
+              <Route path="/PageCatigories">
+                <Route index element={<PageCatigories />} />
+              </Route>
 
-							<Route path="/PageCatigory">
-								<Route index element={<PageCatigory />} />					
-							</Route>
+              <Route path="/PageCatigory">
+                <Route index element={<PageCatigory />} />
+              </Route>
 
-							<Route
-								path="*"
-								element={<Navigate to="/PageCatigories" replace />}
-								/>				
-						</Routes>
+              <Route
+                path="*"
+                element={<Navigate to="/PageCatigories" replace />}
+              />
+            </Routes>
+          </div>
 
-					</div>	
-
-					<div className='PageBottom' />							
-				</div>
-			</div>
-			<Footer />
-		</Router>
-	],
-	document.querySelector('#root')
-);      
-    
+          <div className="PageBottom" />
+        </div>
+      </div>
+      <Footer />
+    </Router>,
+  ],
+  document.querySelector("#root")
+);

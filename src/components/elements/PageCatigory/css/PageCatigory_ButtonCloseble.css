@@ -1,60 +1,56 @@
 .PageCatigory__ButtonClosebleGreen {
-	display: flex;	
-	height: 100%;
-	background: #70C05B;
-	border-radius: 4px;
-	align-items: center;	
-	gap: 16px;	
+  display: flex;
+  height: 100%;
+  background: #70c05b;
+  border-radius: 4px;
+  align-items: center;
+  gap: 16px;
 }
 
 .PageCatigory__ButtonClosebleGrayscale {
-	display: flex;	
-	height: 100%;
-	background: #F3F2F1;
-	border-radius: 4px;
-	align-items: center;	
-	gap: 16px;	
+  display: flex;
+  height: 100%;
+  background: #f3f2f1;
+  border-radius: 4px;
+  align-items: center;
+  gap: 16px;
 }
 
 .PageCatigory__ButtonClosebleGreenCaption {
-	display: flex;	
-	height: 100%;		
-	align-items: center;		
-	font-style: normal;
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 150%;
-	color: #FFFFFF;
-	margin-left: 16px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-left: 16px;
 }
-
 
 .PageCatigory__ButtonClosebleGrayscaleCaption {
-	display: flex;	
-	height: 100%;		
-	align-items: center;		
-	font-style: normal;
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 150%;
-	color: #606060;
-	margin-left: 16px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #606060;
+  margin-left: 16px;
 }
 
-
 .PageCatigory__ButtonClosebleGreenIcon {
-	display: flex;
-	width: 24px;
-	height: 24px;		
-	filter: brightness(0) invert(1);
-	margin-right: 8px;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+  margin-right: 8px;
 }
 
 .PageCatigory__ButtonClosebleGrayscaleIcon {
-	display: flex;
-	width: 24px;
-	height: 24px;			
-	margin-right: 8px;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
 }
-
-

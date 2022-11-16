@@ -1,36 +1,36 @@
 .Footer {
-	display: flex;		
-	align-items: center;	
-	justify-content: center;
-    background: #E5E5E5;
-    font-family: Rubik;	
-}   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e5e5e5;
+  font-family: Rubik;
+}
 
 .FooterContainer {
-	display: flex;		
-	align-items: center;	
-	height: 72px;
-	border: none;
-	border-width: 1px;
-	width: 1440px;
-    height: 126px;
-    background: #F9F4E2;
-}   
-    
+  display: flex;
+  align-items: center;
+  height: 72px;
+  border: none;
+  border-width: 1px;
+  width: 1440px;
+  height: 126px;
+  background: #f9f4e2;
+}
+
 .Footer__Tab116 {
-	display: flex;
-	width: 116px;	
+  display: flex;
+  width: 116px;
 }
 
 .Footer__Tab40 {
-	display: flex;
-	width: 40px;	
+  display: flex;
+  width: 40px;
 }
 
 .Footer__Merch {
-	display: flex;
-	margin-top: 24px;
-	margin-bottom: 20px;
-	width: 64px;
-	height: 44px;	
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  width: 64px;
+  height: 44px;
 }

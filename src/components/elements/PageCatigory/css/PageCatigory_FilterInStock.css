@@ -1,20 +1,17 @@
-
-
 .PageCatigory__FilterInStock {
-    display: flex;
-    height: 24px;
-    width: 100%;
-    border: none;
-    border-width: 1px;
-    margin-top: 50px;
+  display: flex;
+  height: 24px;
+  width: 100%;
+  border: none;
+  border-width: 1px;
+  margin-top: 50px;
 }
 
-
 .PageCatigory__FilterInStockText {
-    display: flex;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    color: #414141;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
 }

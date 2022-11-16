@@ -1,136 +1,133 @@
-
-
 .PageCatigory__ProductCard {
-	display: flex;
-	width: 272px;
-    height: 349px;
-    background-color: #FFFFFF;
-	flex-direction: column;
-	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
-	border-radius: 4px;
+  display: flex;
+  width: 272px;
+  height: 349px;
+  background-color: #ffffff;
+  flex-direction: column;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
 }
 
 .PageCatigory__ProductCardPrint {
-	display: flex;
-	height: 160px;
-	width: 100%;    
+  display: flex;
+  height: 160px;
+  width: 100%;
 }
 
 .PageCatigory__ProductCardPrintWrapper {
-	display: block;
-	position: relative;
-	height: 100%;
-	width: 100%;  
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .PageCatigory__ProductCardPrintIcon {
-	display: flex;
-	height: 100%;
-	width: 100%; 
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .PageCatigory__ProductCardButtonLove {
-	display: block;
-	position: absolute;
-	right: 8px;
-	top: 8px;
-	height: 32px;
-	width: 32px;
+  display: block;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  height: 32px;
+  width: 32px;
 }
 
 .PageCatigory__ProductCardDataWrapper {
-	margin-left: 8px;
-	margin-right: 8px;
-	display: flex;	
-	width: 254px; 
-	flex-direction: column;
+  margin-left: 8px;
+  margin-right: 8px;
+  display: flex;
+  width: 254px;
+  flex-direction: column;
 }
 
 .PageCatigory__ProductCardPriceWrapper {
-	display: flex;
-	height: 60px;
-	width: 100%; 
+  display: flex;
+  height: 60px;
+  width: 100%;
 }
 
 .PageCatigory__ProductCardPrice1 {
-	display: flex;
-	height: 100%;
-	width: 50%;	
-	flex-direction: column;
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
 }
 
 .PageCatigory__ProductCardPrice2 {
-	display: flex;
-	height: 100%;
-	width: 50%;	
-	flex-direction: column;
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
 }
 
 .PageCatigory__ProductCardPrice1_Digit {
-	display: flex;
-	height: 27px;
-	width: 100%;	
-	align-items: center;
-	justify-content: left;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 150%;
-	color: #414141;
+  display: flex;
+  height: 27px;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #414141;
 }
 
 .PageCatigory__ProductCardPrice1_Caption {
-	display: flex;
-	height: 18px;
-	width: 100%;	
-	align-items: center;
-	justify-content: left;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 150%;
-	color: #BFBFBF;
+  display: flex;
+  height: 18px;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #bfbfbf;
 }
 
-
 .PageCatigory__ProductCardPrice2_Digit {
-	display: flex;
-	height: 27px;
-	width: 100%;	
-	align-items: center;
-	justify-content: right;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 150%;
-	color: #606060;
+  display: flex;
+  height: 27px;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #606060;
 }
 
 .PageCatigory__ProductCardPrice2_Caption {
-	display: flex;
-	height: 18px;
-	width: 100%;	
-	align-items: center;
-	justify-content: right;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 150%;
-	color: #BFBFBF;
+  display: flex;
+  height: 18px;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #bfbfbf;
 }
 
 .PageCatigory__ProductCardName {
-	display: flex;
-	height: 48px;
-	width: 100%;	
-	align-items: center;
-	justify-content: left;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 150%;
-	color: #414141;
-	word-wrap: normal ; 
+  display: flex;
+  height: 48px;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+  word-wrap: normal;
 }

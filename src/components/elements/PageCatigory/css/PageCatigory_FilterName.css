@@ -1,23 +1,21 @@
 .PageCatigory__FilterName {
-	display: flex;
-	align-items: center;				
-	background: #F3F2F1;
-	border-radius: 4px;
-    height: 44px;
-
+  display: flex;
+  align-items: center;
+  background: #f3f2f1;
+  border-radius: 4px;
+  height: 44px;
 }
 
 .PageCatigory__FilterNameInput {
-	margin-left: 10px;		
-	border: none;
-	outline: none;
+  margin-left: 10px;
+  border: none;
+  outline: none;
 
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
 
-    background: #F3F2F1;
-    color: #414141;    
+  background: #f3f2f1;
+  color: #414141;
 }
-
