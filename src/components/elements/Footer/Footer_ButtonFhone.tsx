@@ -6,7 +6,7 @@ import icon_phone from "../../../assets/pictures/icon_phone.png";
 
 function ButtonFhone(props: any) {
   return (
-    <div className="Footer__ButtonPhone">
+    <div className="footer__button-phone">
       <img
         className="Footer__ButtonPhoneImg"
         src={icon_phone}
