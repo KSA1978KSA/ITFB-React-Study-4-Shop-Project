@@ -1,4 +1,4 @@
-.PageCatigories__Path {
+.page-catigories__path {
   margin-top: 17px;
   display: flex;
   font-size: 12px;
@@ -9,7 +9,7 @@
   color: #250c0c;
 }
 
-.PageCatigories__Header {
+.page-catigories__header {
   display: flex;
   font-size: 64px;
   font-style: normal;
@@ -17,11 +17,22 @@
   color: #414141;
 }
 
-.PageCatigories__Body {
+.page-catigories__body {
   width: 1208px;
   margin-top: 60px;
   display: flex;
   height: 100%;
   gap: 40px;
   flex-wrap: wrap;
+}
+
+.сatigory-сard_584 {
+  width: 584px;
+  border-radius: 4px;
+}
+
+.сatigory-сard_272 {
+  border-radius: 4px;
+  width: 272px;
+  box-shadow: 1px 2px 4px rgba(112, 192, 91, 0.2);
 }

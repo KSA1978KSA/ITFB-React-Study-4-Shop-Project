@@ -1,4 +1,4 @@
-.PageCatigory__Path {
+.page-catigory__path {
   margin-top: 17px;
   display: flex;
   font-size: 12px;
@@ -9,7 +9,7 @@
   color: #414141;
 }
 
-.PageCatigory__Header {
+.page-catigory__header {
   display: flex;
   font-size: 64px;
   font-style: normal;
@@ -17,7 +17,7 @@
   color: #414141;
 }
 
-.PageCatigory__Body {
+.page-catigory__body {
   width: 1208px;
   margin-top: 60px;
   display: flex;
@@ -26,14 +26,14 @@
   flex-wrap: wrap;
 }
 
-.PageCatigory__BodyPanelWrapper {
+.page-catigory__body-panel-wrapper {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
   gap: 40px;
 }
 
-.PageCatigory__BodyPanelFilter {
+.page-catigory__body-panel-filter {
   display: flex;
   flex-direction: column;
   width: 272px;
@@ -42,7 +42,7 @@
   border-width: 1px;
 }
 
-.PageCatigory__BodyPanelProducts {
+.page-catigory__body-panel-products {
   display: flex;
   flex-direction: column;
   width: 896px;
@@ -50,13 +50,13 @@
   border-width: 1px;
 }
 
-.PageCatigory__BodyPanelApplyFilter {
+.page-catigory__body-panel-apply-filter {
   display: flex;
   height: 40px;
   margin-top: 40px;
 }
 
-.PageCatigory__ShowMore {
+.page-catigory__show-more {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,7 +65,7 @@
   width: 100%;
 }
 
-.PageCatigory__ShowMoreWrapper {
+.page-catigory__show-more-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +73,7 @@
   width: 157px;
 }
 
-.PageCatigory__PageNavigator {
+.page-catigory__page-navigator {
   display: flex;
   align-items: center;
   justify-content: center;

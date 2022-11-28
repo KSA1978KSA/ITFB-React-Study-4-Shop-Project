@@ -9,11 +9,11 @@ import { ButtonFhone } from "../elements/Footer/Footer_ButtonFhone";
 
 function Footer() {
   return (
-    <div className="Footer">
-      <div className="FooterContainer">
+    <div className="footer">
+      <div className="footer__wrapper">
         <Global_Tab tabVolume={116} />
         <img
-          className="Footer__Merch"
+          className="footer__merch"
           src={merch2}
           alt=""
           aria-hidden="true"

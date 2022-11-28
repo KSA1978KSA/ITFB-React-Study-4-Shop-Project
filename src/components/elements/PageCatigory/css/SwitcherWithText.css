@@ -1,4 +1,4 @@
-.PageCatigory__FilterInStock {
+.switcher-with-text {
   display: flex;
   height: 24px;
   width: 100%;
@@ -7,7 +7,7 @@
   margin-top: 50px;
 }
 
-.PageCatigory__FilterInStockText {
+.switcher-with-text__text {
   display: flex;
   font-style: normal;
   font-weight: 400;

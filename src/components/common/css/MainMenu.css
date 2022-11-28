@@ -1,4 +1,4 @@
-.MainMenu {
+.main-menu {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,7 +6,7 @@
   font-family: Rubik;
 }
 
-.MainMenuContainer {
+.main-menu__wrapper {
   display: flex;
   align-items: center;
   height: 72px;
@@ -16,7 +16,7 @@
   z-index: 1;
 }
 
-.MainMenu__Merch {
+.main-menu__merch {
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;

@@ -12,11 +12,11 @@ import { Global_Tab } from "../elements/Global/Global_Tab";
 
 function MainMenu() {
   return (
-    <div className="MainMenu">
-      <div className="MainMenuContainer">
+    <div className="main-menu">
+      <div className="main-menu__wrapper">
         <Global_Tab tabVolume={116} />
         <img
-          className="MainMenu__Merch"
+          className="main-menu__merch"
           src={merch1}
           alt=""
           aria-hidden="true"

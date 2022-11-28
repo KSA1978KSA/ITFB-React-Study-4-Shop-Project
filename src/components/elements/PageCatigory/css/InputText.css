@@ -1,4 +1,4 @@
-.PageCatigory__FilterName {
+.input-text {
   display: flex;
   align-items: center;
   background: #f3f2f1;
@@ -6,7 +6,7 @@
   height: 44px;
 }
 
-.PageCatigory__FilterNameInput {
+.input-text__input {
   margin-left: 10px;
   border: none;
   outline: none;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/PageCatigories.css";
-import { CatigoryCard } from "../elements/PageCatigories/PageCatigories_CatigoryCard";
+import { CatigoryCard } from "../elements/PageCatigories/CatigoryCard";
 
 /* 
 чтобы загрузить png, нужно создать кастомную папку с типами "types" и
@@ -38,76 +38,68 @@ function PageCatigories() {
 
   return (
     <div>
-      <div className="PageCatigories__Path">
+      <div className="page-catigories__path">
         <div>Главная</div>
         <div>{"/"}</div>
         <div>Каталог</div>
       </div>
-      <div className="PageCatigories__Header">Каталог</div>
+      <div className="page-catigories__header">Каталог</div>
 
-      <div className="PageCatigories__Body">
-        <CatigoryCard
-          image={image1}
-          cardType={0}
-          CatigoryName={"Молоко, сыр, яйцо"}
-        />
+      <div className="page-catigories__body">
+        <div className="сatigory-сard_584">
+          <CatigoryCard image={image1} CatigoryName={"Молоко, сыр, яйцо"} />
+        </div>
 
-        <CatigoryCard
-          image={image2}
-          cardType={1}
-          shadowType={1}
-          CatigoryName={"Хлеб"}
-        />
+        <div className="сatigory-сard_272">
+          <CatigoryCard image={image2} shadowType={1} CatigoryName={"Хлеб"} />
+        </div>
 
-        <CatigoryCard
-          image={image3}
-          cardType={1}
-          CatigoryName={"Фрукты и овощи"}
-        />
+        <div className="сatigory-сard_272">
+          <CatigoryCard image={image3} CatigoryName={"Фрукты и овощи"} />
+        </div>
 
-        <CatigoryCard
-          image={image4}
-          cardType={1}
-          CatigoryName={"Замороженные продукты"}
-        />
+        <div className="сatigory-сard_272">
+          <CatigoryCard image={image4} CatigoryName={"Замороженные продукты"} />
+        </div>
 
-        <CatigoryCard image={image5} cardType={1} CatigoryName={"Напитки"} />
+        <div className="сatigory-сard_272">
+          <CatigoryCard image={image5} CatigoryName={"Напитки"} />
+        </div>
 
-        <CatigoryCard
-          image={image6}
-          cardType={1}
-          CatigoryName={"Кондитерские изделия"}
-        />
+        <div className="сatigory-сard_272">
+          <CatigoryCard image={image6} CatigoryName={"Кондитерские изделия"} />
+        </div>
 
-        <CatigoryCard image={image7} cardType={1} CatigoryName={"Чай, кофе"} />
+        <div className="сatigory-сard_272">
+          <CatigoryCard image={image7} CatigoryName={"Чай, кофе"} />
+        </div>
 
-        <CatigoryCard image={image8} cardType={1} CatigoryName={"Бакалея"} />
+        <div className="сatigory-сard_272">
+          <CatigoryCard image={image8} CatigoryName={"Бакалея"} />
+        </div>
 
-        <CatigoryCard
-          image={image9}
-          cardType={1}
-          CatigoryName={"Здоровое питание"}
-        />
+        <div className="сatigory-сard_272">
+          <CatigoryCard image={image9} CatigoryName={"Здоровое питание"} />
+        </div>
 
-        <CatigoryCard image={image10} cardType={0} CatigoryName={"Зоотовары"} />
+        <div className="сatigory-сard_584">
+          <CatigoryCard image={image10} CatigoryName={"Зоотовары"} />
+        </div>
 
-        <CatigoryCard
-          image={image11}
-          cardType={1}
-          CatigoryName={"Детское питание"}
-        />
+        <div className="сatigory-сard_272">
+          <CatigoryCard image={image11} CatigoryName={"Детское питание"} />
+        </div>
 
-        <CatigoryCard
-          image={image12}
-          cardType={0}
-          CatigoryName={"Мясо, птица, колбаса"}
-        />
+        <div className="сatigory-сard_584">
+          <CatigoryCard image={image12} CatigoryName={"Мясо, птица, колбаса"} />
+        </div>
 
-        <CatigoryCard
-          image={image13}
-          cardType={1}
-          CatigoryName={"Непродовольственные товары"}
-        />
+        <div className="сatigory-сard_272">
+          <CatigoryCard
+            image={image13}
+            CatigoryName={"Непродовольственные товары"}
+          />
+        </div>
       </div>
     </div>
   );

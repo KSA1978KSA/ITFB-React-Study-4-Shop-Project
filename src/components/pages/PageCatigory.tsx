@@ -1,13 +1,13 @@
 import React from "react";
 
 import "./css/PageCatigory.css";
-import { PageCatigory_FilterStatic } from "../elements/PageCatigory/PageCatigory_FilterStatic";
-import { PageCatigory_ProductsWrapper } from "../elements/PageCatigory/PageCatigory_ProductsWrapper";
-import { PageCatigory_AddedFilters } from "../elements/PageCatigory/PageCatigory_AddedFilters";
-import { PageCatigory_FilterName } from "../elements/PageCatigory/PageCatigory_FilterName";
-import { PageCatigory_FilterPrice } from "../elements/PageCatigory/PageCatigory_FilterPrice";
-import { PageCatigory_FilteredCatigories } from "../elements/PageCatigory/PageCatigory_FilteredCatigories";
-import { PageCatigory_FilterInStock } from "../elements/PageCatigory/PageCatigory_FilterInStock";
+import { SelectValuesByButtonsActivators } from "../elements/PageCatigory/SelectValuesByButtonsActivators";
+import { ProductsBoard } from "../elements/PageCatigory/ProductsBoard";
+import { AddedValuesAsButtons } from "../elements/PageCatigory/AddedValuesAsButtons";
+import { InputText } from "../elements/PageCatigory/InputText";
+import { InputDiapazon } from "../elements/PageCatigory/InputDiapazon";
+import { ListBox } from "../elements/PageCatigory/ListBox";
+import { SwitcherWithText } from "../elements/PageCatigory/SwitcherWithText";
 import { Global_SimpleButton } from "../elements/Global/Global_SimpleButton";
 import { Global_PageNavigator } from "../elements/Global/Global_PageNavigator";
 
@@ -18,7 +18,7 @@ function PageCatigory() {
 
   return (
     <div>
-      <div className="PageCatigory__Path">
+      <div className="page-catigory__path">
         <div>Главная</div>
         <div>{"/"}</div>
         <div>Каталог</div>
@@ -26,20 +26,20 @@ function PageCatigory() {
         <div>Молоко, сыр, яйцо</div>
       </div>
 
-      <div className="PageCatigory__Header">Молоко, сыр, яйцо</div>
+      <div className="page-catigory__header">Молоко, сыр, яйцо</div>
 
-      <div className="PageCatigory__Body">
-        <PageCatigory_FilterStatic />
+      <div className="page-catigory__body">
+        <SelectValuesByButtonsActivators />
       </div>
 
-      <div className="PageCatigory__BodyPanelWrapper">
-        <div className="PageCatigory__BodyPanelFilter">
-          <PageCatigory_FilterName />
-          <PageCatigory_FilterPrice />
-          <PageCatigory_FilteredCatigories />
-          <PageCatigory_FilterInStock />
+      <div className="page-catigory__body-panel-wrapper">
+        <div className="page-catigory__body-panel-filter">
+          <InputText />
+          <InputDiapazon />
+          <ListBox />
+          <SwitcherWithText text={"В наличии"} />
 
-          <div className="PageCatigory__BodyPanelApplyFilter">
+          <div className="page-catigory__body-panel-apply-filter">
             <Global_SimpleButton
               buttonText={"Применить"}
               buttonColor={"#FF6633"}
@@ -49,11 +49,11 @@ function PageCatigory() {
           </div>
         </div>
 
-        <div className="PageCatigory__BodyPanelProducts">
-          <PageCatigory_AddedFilters />
-          <PageCatigory_ProductsWrapper />
-          <div className="PageCatigory__ShowMore">
-            <div className="PageCatigory__ShowMoreWrapper">
+        <div className="page-catigory__body-panel-products">
+          <AddedValuesAsButtons />
+          <ProductsBoard />
+          <div className="page-catigory__show-more">
+            <div className="page-catigory__show-more-wrapper">
               <Global_SimpleButton
                 buttonText={"Показать ещё"}
                 textSize={"16px"}
@@ -61,7 +61,7 @@ function PageCatigory() {
             </div>
           </div>
 
-          <div className="PageCatigory__PageNavigator">
+          <div className="page-catigory__page-navigator">
             <Global_PageNavigator />
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./css/PageCatigories_CatigoryCard.css";
+import "./css/CatigoryCard.css";
 
 import { useNavigate } from "react-router-dom";
 
@@ -9,9 +9,9 @@ function CardShadow(props: any) {
   let jsxElement: JSX.Element;
 
   if (!props.shadowType) {
-    jsxElement = <div className="CatigoryCardShadow1" />;
+    jsxElement = <div className="сatigory-сard__shadow-1" />;
   } else {
-    jsxElement = <div className="CatigoryCardShadow2" />;
+    jsxElement = <div className="сatigory-сard__shadow-2" />;
   }
 
   return jsxElement;
@@ -29,20 +29,20 @@ function CatigoryCard(props: any) {
     case 0:
       jsxElement = (
         <div
-          className="PageCatigoriesBody__CatigoryCard584"
+          className="сatigory-сard-584"
           onClick={() => {
             navigate(`/PageCatigory`);
           }}
         >
           <img
-            className="CatigoryCardImg"
+            className="сatigory-сard__img"
             src={props.image}
             alt=""
             aria-hidden="true"
             data-noaft=""
           />
           <CardShadow shadowType={props.shadowType} />
-          <div className="CatigoryCardText">{props.CatigoryName}</div>
+          <div className="сatigory-сard__text">{props.CatigoryName}</div>
         </div>
       );
       break;
@@ -50,20 +50,20 @@ function CatigoryCard(props: any) {
     case 1:
       jsxElement = (
         <div
-          className="PageCatigoriesBody__CatigoryCard272"
+          className="сatigory-сard-272"
           onClick={() => {
             navigate(`/PageCatigory`);
           }}
         >
           <img
-            className="CatigoryCardImg"
+            className="сatigory-сard__img"
             src={props.image}
             alt=""
             aria-hidden="true"
             data-noaft=""
           />
           <CardShadow shadowType={props.shadowType} />
-          <div className="CatigoryCardText">{props.CatigoryName}</div>
+          <div className="сatigory-сard__text">{props.CatigoryName}</div>
         </div>
       );
       break;
@@ -71,20 +71,20 @@ function CatigoryCard(props: any) {
     default:
       jsxElement = (
         <div
-          className="PageCatigoriesBody__CatigoryCard584"
+          className="сatigory-сard-584"
           onClick={() => {
             navigate(`/PageCatigory`);
           }}
         >
           <img
-            className="CatigoryCardImg"
+            className="сatigory-сard__img"
             src={props.image}
             alt=""
             aria-hidden="true"
             data-noaft=""
           />
           <CardShadow shadowType={props.shadowType} />
-          <div className="CatigoryCardText">{props.CatigoryName}</div>
+          <div className="сatigory-сard__text">{props.CatigoryName}</div>
         </div>
       );
   }

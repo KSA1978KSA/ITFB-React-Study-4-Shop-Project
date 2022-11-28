@@ -1,4 +1,4 @@
-.Page {
+.page {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,12 +6,7 @@
   background: #e5e5e5;
 }
 
-.PageWrapper__Tab116 {
-  display: flex;
-  width: 116px;
-}
-
-.PageWrapper {
+.page__wrapper {
   display: flex;
   align-items: center;
   font-size: 36px;
@@ -19,7 +14,7 @@
   background: #fbf8ec;
 }
 
-.PageContainer {
+.page__container {
   display: flex;
   justify-content: center;
   font-size: 36px;
@@ -28,7 +23,7 @@
   width: 1208px;
 }
 
-.PageBottom {
+.page__bottom {
   display: flex;
   height: 40px;
 }

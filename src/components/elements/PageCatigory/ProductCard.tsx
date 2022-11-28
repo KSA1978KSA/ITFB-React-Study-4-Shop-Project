@@ -1,26 +1,26 @@
 import React from "react";
-import "./css/PageCatigory_ProductCard.css";
+import "./css/ProductCard.css";
 import icon_heart from "../../../assets/pictures/icon_heart.png";
 import { Global_Tab } from "../Global/Global_Tab";
 import { Global_RatingStars } from "../Global/Global_RatingStars";
 import { Global_SimpleStickyButton } from "../Global/Global_SimpleStickyButton";
 
-function PageCatigory_ProductCard(props: any) {
+function ProductCard(props: any) {
   return (
-    <div className="PageCatigory__ProductCard">
-      <div className="PageCatigory__ProductCardPrint">
-        <div className="PageCatigory__ProductCardPrintWrapper">
+    <div className="product-card">
+      <div className="product-card__print">
+        <div className="product-card__print-interlayer">
           <img
-            className="PageCatigory__ProductCardPrintIcon"
+            className="product-card__print-icon"
             src={props.Print}
             alt=""
             aria-hidden="true"
             data-noaft=""
           />
 
-          <div className="PageCatigory__ProductCardButtonLove">
+          <div className="product-card__button-love">
             <img
-              className="PageCatigory__ProductCardButtonLoveIcon"
+              className="product-card__button-love-icon"
               src={icon_heart}
               alt=""
               aria-hidden="true"
@@ -30,30 +30,30 @@ function PageCatigory_ProductCard(props: any) {
         </div>
       </div>
 
-      <div className="PageCatigory__ProductCardDataWrapper">
-        <div className="PageCatigory__ProductCardPriceWrapper">
-          <div className="PageCatigory__ProductCardPrice1">
-            <div className="PageCatigory__ProductCardPrice1_Digit">
+      <div className="product-card__data">
+        <div className="product-card__prices">
+          <div className="product-card__price-1">
+            <div className="product-card__price-1-digit">
               {!props.Price1 === false ? props.Price1 + " ₽" : ""}
             </div>
-            <div className="PageCatigory__ProductCardPrice1_Caption">
+            <div className="product-card__price-1-caption">
               {props.Caption_Price1}
             </div>
           </div>
 
-          <div className="PageCatigory__ProductCardPrice2">
-            <div className="PageCatigory__ProductCardPrice2_Digit">
+          <div className="product-card__price-2">
+            <div className="product-card__price-2-digit">
               {!props.Price2 === false ? props.Price2 + " ₽" : ""}
             </div>
-            <div className="PageCatigory__ProductCardPrice2_Caption">
+            <div className="product-card__price-2-caption">
               {props.Caption_Price2}
             </div>
           </div>
         </div>
 
-        <div className="PageCatigory__ProductCardName">{props.Name}</div>
+        <div className="product-card__name">{props.Name}</div>
 
-        <div className="PageCatigory__ProductRating">
+        <div className="product-card__product-rating">
           <Global_RatingStars />
         </div>
 
@@ -70,4 +70,4 @@ function PageCatigory_ProductCard(props: any) {
     </div>
   );
 }
-export { PageCatigory_ProductCard };
+export { ProductCard };

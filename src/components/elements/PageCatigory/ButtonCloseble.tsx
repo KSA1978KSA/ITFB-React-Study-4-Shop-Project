@@ -1,20 +1,20 @@
 import React from "react";
 
-import "./css/PageCatigory_ButtonCloseble.css";
+import "./css/ButtonCloseble.css";
 import icon_x from "../../../assets/pictures/icon_x.png";
 
-function PageCatigory_ButtonCloseble(props: any) {
+function ButtonCloseble(props: any) {
   let jsxElement: JSX.Element;
 
   switch (props.buttonColor) {
     case "Green":
       jsxElement = (
-        <div className="PageCatigory__ButtonClosebleGreen">
-          <div className="PageCatigory__ButtonClosebleGreenCaption">
+        <div className="button-closeble-green">
+          <div className="button-closeble-green__caption">
             {props.buttonText}
           </div>
           <img
-            className="PageCatigory__ButtonClosebleGreenIcon"
+            className="button-closeble-green__icon"
             src={icon_x}
             alt=""
             aria-hidden="true"
@@ -26,12 +26,12 @@ function PageCatigory_ButtonCloseble(props: any) {
 
     default:
       jsxElement = (
-        <div className="PageCatigory__ButtonClosebleGrayscale">
-          <div className="PageCatigory__ButtonClosebleGrayscaleCaption">
+        <div className="button-closeble-grayscale">
+          <div className="button-closeble-grayscale__caption">
             {props.buttonText}
           </div>
           <img
-            className="PageCatigory__ButtonClosebleGrayscaleIcon"
+            className="button-closeble-grayscale__icon"
             src={icon_x}
             alt=""
             aria-hidden="true"
@@ -44,4 +44,4 @@ function PageCatigory_ButtonCloseble(props: any) {
 
   return jsxElement;
 }
-export { PageCatigory_ButtonCloseble };
+export { ButtonCloseble };

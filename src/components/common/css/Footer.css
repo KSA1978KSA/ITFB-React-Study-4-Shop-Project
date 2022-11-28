@@ -1,4 +1,4 @@
-.Footer {
+.footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,7 +6,7 @@
   font-family: Rubik;
 }
 
-.FooterContainer {
+.footer__wrapper {
   display: flex;
   align-items: center;
   height: 72px;
@@ -17,17 +17,7 @@
   background: #f9f4e2;
 }
 
-.Footer__Tab116 {
-  display: flex;
-  width: 116px;
-}
-
-.Footer__Tab40 {
-  display: flex;
-  width: 40px;
-}
-
-.Footer__Merch {
+.footer__merch {
   display: flex;
   margin-top: 24px;
   margin-bottom: 20px;

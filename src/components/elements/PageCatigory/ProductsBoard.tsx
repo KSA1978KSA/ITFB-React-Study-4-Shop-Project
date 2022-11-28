@@ -1,6 +1,6 @@
 import React from "react";
-import "./css/PageCatigory_ProductsWrapper.css";
-import { PageCatigory_ProductCard } from "./PageCatigory_ProductCard";
+import "./css/ProductsBoard.css";
+import { ProductCard } from "./ProductCard";
 
 //--- временно загружаем сюда картинки, которые будут приходить с сервера
 import print_dorblu_1 from "../../../assets/pictures/dinamic_prints/print_dorblu_1.png";
@@ -10,10 +10,10 @@ import print_maslo_prostokvashino_1 from "../../../assets/pictures/dinamic_print
 import print_yogurt_fruttis_1 from "../../../assets/pictures/dinamic_prints/print_yogurt_fruttis_1.png";
 import print_yogurt_fruttis_2 from "../../../assets/pictures/dinamic_prints/print_yogurt_fruttis_2.png";
 
-function PageCatigory_ProductsWrapper() {
+function ProductsBoard() {
   return (
-    <div className="PageCatigory__ProductsWrapper">
-      <PageCatigory_ProductCard
+    <div className="products-board">
+      <ProductCard
         Print={print_dorblu_1}
         Price1={139.99}
         Name={
@@ -24,7 +24,7 @@ function PageCatigory_ProductsWrapper() {
           </div>
         }
       />
-      <PageCatigory_ProductCard
+      <ProductCard
         Print={print_moloko_prostokvashino_1}
         Price1={69.99}
         Caption_Price1={"С картой"}
@@ -38,7 +38,7 @@ function PageCatigory_ProductsWrapper() {
           </div>
         }
       />
-      <PageCatigory_ProductCard
+      <ProductCard
         Print={print_moloko_egorka_1}
         Price1={77.99}
         Caption_Price1={"С картой"}
@@ -53,7 +53,7 @@ function PageCatigory_ProductsWrapper() {
         }
         InBasket={1}
       />
-      <PageCatigory_ProductCard
+      <ProductCard
         Print={print_maslo_prostokvashino_1}
         Price1={192.99}
         Name={
@@ -64,7 +64,7 @@ function PageCatigory_ProductsWrapper() {
           </div>
         }
       />
-      <PageCatigory_ProductCard
+      <ProductCard
         Print={print_yogurt_fruttis_1}
         Price1={29.99}
         Name={
@@ -75,7 +75,7 @@ function PageCatigory_ProductsWrapper() {
           </div>
         }
       />
-      <PageCatigory_ProductCard
+      <ProductCard
         Print={print_yogurt_fruttis_2}
         Price1={29.99}
         Name={
@@ -89,4 +89,4 @@ function PageCatigory_ProductsWrapper() {
     </div>
   );
 }
-export { PageCatigory_ProductsWrapper };
+export { ProductsBoard };

@@ -1,4 +1,4 @@
-.PageCatigory__ProductCard {
+.product-card {
   display: flex;
   width: 272px;
   height: 349px;
@@ -8,20 +8,20 @@
   border-radius: 4px;
 }
 
-.PageCatigory__ProductCardPrint {
+.product-card__print {
   display: flex;
   height: 160px;
   width: 100%;
 }
 
-.PageCatigory__ProductCardPrintWrapper {
+.product-card__print-interlayer {
   display: block;
   position: relative;
   height: 100%;
   width: 100%;
 }
 
-.PageCatigory__ProductCardPrintIcon {
+.product-card__print-icon {
   display: flex;
   height: 100%;
   width: 100%;
@@ -29,7 +29,7 @@
   justify-content: center;
 }
 
-.PageCatigory__ProductCardButtonLove {
+.product-card__button-love {
   display: block;
   position: absolute;
   right: 8px;
@@ -38,7 +38,7 @@
   width: 32px;
 }
 
-.PageCatigory__ProductCardDataWrapper {
+.product-card__data {
   margin-left: 8px;
   margin-right: 8px;
   display: flex;
@@ -46,27 +46,27 @@
   flex-direction: column;
 }
 
-.PageCatigory__ProductCardPriceWrapper {
+.product-card__prices {
   display: flex;
   height: 60px;
   width: 100%;
 }
 
-.PageCatigory__ProductCardPrice1 {
+.product-card__price-1 {
   display: flex;
   height: 100%;
   width: 50%;
   flex-direction: column;
 }
 
-.PageCatigory__ProductCardPrice2 {
+.product-card__price-2 {
   display: flex;
   height: 100%;
   width: 50%;
   flex-direction: column;
 }
 
-.PageCatigory__ProductCardPrice1_Digit {
+.product-card__price-1-digit {
   display: flex;
   height: 27px;
   width: 100%;
@@ -79,7 +79,7 @@
   color: #414141;
 }
 
-.PageCatigory__ProductCardPrice1_Caption {
+.product-card__price-1-caption {
   display: flex;
   height: 18px;
   width: 100%;
@@ -92,7 +92,7 @@
   color: #bfbfbf;
 }
 
-.PageCatigory__ProductCardPrice2_Digit {
+.product-card__price-2-digit {
   display: flex;
   height: 27px;
   width: 100%;
@@ -105,7 +105,7 @@
   color: #606060;
 }
 
-.PageCatigory__ProductCardPrice2_Caption {
+.product-card__price-2-caption {
   display: flex;
   height: 18px;
   width: 100%;
@@ -118,7 +118,7 @@
   color: #bfbfbf;
 }
 
-.PageCatigory__ProductCardName {
+.product-card__name {
   display: flex;
   height: 48px;
   width: 100%;

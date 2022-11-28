@@ -1,4 +1,4 @@
-.PageCatigory__ButtonClosebleGreen {
+.button-closeble-green {
   display: flex;
   height: 100%;
   background: #70c05b;
@@ -7,7 +7,7 @@
   gap: 16px;
 }
 
-.PageCatigory__ButtonClosebleGrayscale {
+.button-closeble-grayscale {
   display: flex;
   height: 100%;
   background: #f3f2f1;
@@ -16,7 +16,7 @@
   gap: 16px;
 }
 
-.PageCatigory__ButtonClosebleGreenCaption {
+.button-closeble-green__caption {
   display: flex;
   height: 100%;
   align-items: center;
@@ -28,7 +28,7 @@
   margin-left: 16px;
 }
 
-.PageCatigory__ButtonClosebleGrayscaleCaption {
+.button-closeble-grayscale__caption {
   display: flex;
   height: 100%;
   align-items: center;
@@ -40,7 +40,7 @@
   margin-left: 16px;
 }
 
-.PageCatigory__ButtonClosebleGreenIcon {
+.button-closeble-green__icon {
   display: flex;
   width: 24px;
   height: 24px;
@@ -48,7 +48,7 @@
   margin-right: 8px;
 }
 
-.PageCatigory__ButtonClosebleGrayscaleIcon {
+.button-closeble-grayscale__icon {
   display: flex;
   width: 24px;
   height: 24px;

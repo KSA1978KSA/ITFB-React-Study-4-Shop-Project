@@ -1,22 +1,27 @@
-.PageCatigoriesBody__CatigoryCard584 {
+.сatigory-сard {
+  position: relative;
+  border-radius: 4px;
+  height: 200px;
+  width: 100%;
+  box-shadow: 1px 2px 4px rgba(112, 192, 91, 0.2);
+}
+
+.сatigory-сard-584 {
   position: relative;
   height: 200px;
   width: 584px;
   border-radius: 4px;
 }
 
-.PageCatigoriesBody__CatigoryCard272 {
+.сatigory-сard-272 {
   position: relative;
+  border-radius: 4px;
   height: 200px;
   width: 272px;
-  border: none;
-  border-width: 1px;
-  background: #ffffff;
   box-shadow: 1px 2px 4px rgba(112, 192, 91, 0.2);
-  border-radius: 4px;
 }
 
-.CatigoryCardImg {
+.сatigory-сard__img {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -25,7 +30,7 @@
   border-radius: 4px;
 }
 
-.CatigoryCardShadow1 {
+.сatigory-сard__shadow-1 {
   position: absolute;
   height: 117px;
   left: 0px;
@@ -36,7 +41,7 @@
   border-radius: 4px;
 }
 
-.CatigoryCardShadow2 {
+.сatigory-сard__shadow-2 {
   position: absolute;
   height: 177px;
   left: 0px;
@@ -47,7 +52,7 @@
   border-radius: 4px;
 }
 
-.CatigoryCardText {
+.сatigory-сard__text {
   position: absolute;
   bottom: 10px;
   left: 10px;

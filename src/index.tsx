@@ -3,6 +3,7 @@ import { PageCatigories } from "./components/pages/PageCatigories";
 import { PageCatigory } from "./components/pages/PageCatigory";
 import { MainMenu } from "./components/common/MainMenu";
 import { Footer } from "./components/common/Footer";
+import { Global_Tab } from "./components/elements/Global/Global_Tab";
 import "./assets/fonts/Rubik.css";
 import "./index.css";
 
@@ -32,11 +33,11 @@ ReactDOM.render(
   [
     <Router>
       <MainMenu />
-      <div className="Page">
-        <div className="PageWrapper">
-          <div className="PageWrapper__Tab116" />
+      <div className="page">
+        <div className="page__wrapper">
+          <Global_Tab tabVolume={116} />
 
-          <div className="PageContainer">
+          <div className="page__container">
             <Routes>
               <Route path="/PageCatigories">
                 <Route index element={<PageCatigories />} />
@@ -53,7 +54,7 @@ ReactDOM.render(
             </Routes>
           </div>
 
-          <div className="PageBottom" />
+          <div className="page__bottom" />
         </div>
       </div>
       <Footer />

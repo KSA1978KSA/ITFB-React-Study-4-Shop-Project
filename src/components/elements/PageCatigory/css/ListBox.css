@@ -1,11 +1,11 @@
-.PageCatigory__FilteredCatigories {
+.list-box {
   display: flex;
   margin-top: 50px;
   flex-direction: column;
   gap: 30px;
 }
 
-.PageCatigory__FilteredCatigoriesName {
+.list-box__element {
   display: flex;
   font-style: normal;
   font-weight: 400;
