@@ -1,31 +1,31 @@
 import React from "react";
 import "./css/InputDiapazon.css";
-import { Global_SimpleButton } from "../Global/Global_SimpleButton";
-import { Global_Input } from "../Global/Global_Input";
-import { Global_Polzunok } from "../Global/Global_Polzunok";
+import { SimpleButton } from "../Global/SimpleButton";
+import { InputNumber } from "../Global/InputNumber";
+import { Polzunok } from "../Global/Polzunok";
 
 function InputDiapazon() {
   return (
     <div className="input-diapazon">
-      <div className="input-diapazon__wrapper_1">
+      <div className="input-diapazon__wrapper-1">
         <div className="input-diapazon__price-text">
           <div className="input-diapazon__title-price-text">Цена</div>
         </div>
         <div className="input-diapazon__button-clear">
-          <Global_SimpleButton buttonText={"Очистить"} />
+          <SimpleButton buttonText={"Очистить"} />
         </div>
       </div>
-      <div className="input-diapazon__wrapper_2">
+      <div className="input-diapazon__wrapper-2">
         <div className="input-diapazon__price-input">
-          <Global_Input />
+          <InputNumber />
         </div>
         <div className="input-diapazon__price-tire" />
         <div className="input-diapazon__price-input">
-          <Global_Input />
+          <InputNumber />
         </div>
       </div>
-      <div className="input-diapazon__wrapper_3">
-        <Global_Polzunok />
+      <div className="input-diapazon__wrapper-3">
+        <Polzunok />
       </div>
     </div>
   );

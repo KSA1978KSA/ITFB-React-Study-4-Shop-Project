@@ -1,0 +1,13 @@
+.rating-stars {
+  display: flex;
+  gap: 4px;
+  height: 16px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.rating-stars__star-1 {
+  display: flex;
+  height: 16px;
+  width: 16px;
+}

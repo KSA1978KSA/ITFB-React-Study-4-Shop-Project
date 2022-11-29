@@ -1,0 +1,21 @@
+.button-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+  gap: 10.5px;
+}
+
+.button-phone__img {
+  display: flex;
+  height: 24px;
+  width: 24px;
+}
+
+.button-phone__text {
+  display: flex;
+}

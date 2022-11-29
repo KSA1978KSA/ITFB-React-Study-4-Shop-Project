@@ -3,7 +3,7 @@ import { PageCatigories } from "./components/pages/PageCatigories";
 import { PageCatigory } from "./components/pages/PageCatigory";
 import { MainMenu } from "./components/common/MainMenu";
 import { Footer } from "./components/common/Footer";
-import { Global_Tab } from "./components/elements/Global/Global_Tab";
+import { HTab } from "./components/elements/Global/HTab";
 import "./assets/fonts/Rubik.css";
 import "./index.css";
 
@@ -35,7 +35,7 @@ ReactDOM.render(
       <MainMenu />
       <div className="page">
         <div className="page__wrapper">
-          <Global_Tab tabVolume={116} />
+          <HTab tabVolume={116} />
 
           <div className="page__container">
             <Routes>

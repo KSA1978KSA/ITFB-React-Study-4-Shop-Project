@@ -1,0 +1,40 @@
+.button-cataloge-list {
+  display: flex;
+  width: 140px;
+  height: 40px;
+  background: #70c05b;
+  border-radius: 4px;
+}
+
+.button-cataloge-list__icon {
+  display: flex;
+  margin-left: 8px;
+  margin-top: 13.5px;
+  width: 40px;
+  flex-direction: column;
+}
+
+.button-cataloge-list__caption {
+  display: flex;
+  width: 100px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.button-cataloge-list__icon-line {
+  display: flex;
+  width: 19px;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.button-cataloge-list__icon-tab {
+  display: flex;
+  height: 5px;
+}

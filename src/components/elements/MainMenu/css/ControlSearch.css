@@ -1,0 +1,22 @@
+.control-search {
+  display: flex;
+  align-items: center;
+  width: 375px;
+  background: #ffffff;
+
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+}
+
+.control-search__input {
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 317px;
+  border: none;
+  outline: none;
+}
+
+.control-search__img {
+  margin-left: 3px;
+}

@@ -1,0 +1,52 @@
+.polzunok {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.polzunok__wrapper {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.polzunok__wrapper-flex {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.polzunok__circle {
+  display: flex;
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  background: #70c05b;
+
+  border: 1px solid #ffffff;
+  box-shadow: 2px 4px 8px rgba(112, 192, 91, 0.2);
+}
+
+.polzunok__back-line-wrapper {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.polzunok__back-line {
+  display: flex;
+  height: 4px;
+  background: #f3f2f1;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.polzunok__line {
+  display: flex;
+  height: 4px;
+  background: #70c05b;
+  width: 152px;
+}

@@ -1,0 +1,28 @@
+.page-navigator {
+  display: flex;
+  gap: 32px;
+}
+
+.page-navigator__left-buttons {
+  display: flex;
+  gap: 32px;
+}
+
+.page-navigator__page-buttons {
+  display: flex;
+  gap: 32px;
+}
+
+.page-navigator__right-buttons {
+  display: flex;
+  gap: 32px;
+}
+
+.page-navigator__button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  align-items: center;
+  color: #606060;
+}

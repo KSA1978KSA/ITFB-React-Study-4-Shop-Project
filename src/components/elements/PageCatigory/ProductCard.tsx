@@ -1,9 +1,8 @@
 import React from "react";
 import "./css/ProductCard.css";
 import icon_heart from "../../../assets/pictures/icon_heart.png";
-import { Global_Tab } from "../Global/Global_Tab";
-import { Global_RatingStars } from "../Global/Global_RatingStars";
-import { Global_SimpleStickyButton } from "../Global/Global_SimpleStickyButton";
+import { RatingStars } from "../Global/RatingStars";
+import { StickyButton } from "../Global/StickyButton";
 
 function ProductCard(props: any) {
   return (
@@ -54,10 +53,10 @@ function ProductCard(props: any) {
         <div className="product-card__name">{props.Name}</div>
 
         <div className="product-card__product-rating">
-          <Global_RatingStars />
+          <RatingStars />
         </div>
 
-        <Global_SimpleStickyButton
+        <StickyButton
           buttonText={"В корзину"}
           textSize={16}
           textColor={"#70C05B"}

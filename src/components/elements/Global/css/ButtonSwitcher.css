@@ -1,0 +1,41 @@
+.button-switcher {
+  display: flex;
+  height: 24px;
+  width: 46px;
+}
+
+.button-switcher__relative {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.button-switcher__wrapper {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.button-switcher__wrapper-flex {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.button-switcher__background {
+  display: flex;
+  height: 100%;
+  background: #70c05b;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.button-switcher__circle {
+  display: flex;
+  height: 20px;
+  width: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+}

@@ -1,0 +1,12 @@
+.button-profile-drilldown {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-profile-drilldown__img {
+  display: flex;
+  width: 24px;
+  height: 24px;
+}

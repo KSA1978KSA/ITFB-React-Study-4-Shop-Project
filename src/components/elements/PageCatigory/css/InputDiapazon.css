@@ -4,14 +4,14 @@
   margin-top: 44px;
 }
 
-.input-diapazon__wrapper_1 {
+.input-diapazon__wrapper-1 {
   display: flex;
   height: 24px;
   border: none;
   border-width: 1px;
 }
 
-.input-diapazon__wrapper_2 {
+.input-diapazon__wrapper-2 {
   display: flex;
   height: 40px;
   border: none;
@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.input-diapazon__wrapper_3 {
+.input-diapazon__wrapper-3 {
   display: flex;
   height: 24px;
   border: none;

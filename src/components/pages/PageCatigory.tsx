@@ -8,8 +8,8 @@ import { InputText } from "../elements/PageCatigory/InputText";
 import { InputDiapazon } from "../elements/PageCatigory/InputDiapazon";
 import { ListBox } from "../elements/PageCatigory/ListBox";
 import { SwitcherWithText } from "../elements/PageCatigory/SwitcherWithText";
-import { Global_SimpleButton } from "../elements/Global/Global_SimpleButton";
-import { Global_PageNavigator } from "../elements/Global/Global_PageNavigator";
+import { SimpleButton } from "../elements/Global/SimpleButton";
+import { PageNavigator } from "../elements/Global/PageNavigator";
 
 import { useNavigate } from "react-router-dom";
 
@@ -40,7 +40,7 @@ function PageCatigory() {
           <SwitcherWithText text={"В наличии"} />
 
           <div className="page-catigory__body-panel-apply-filter">
-            <Global_SimpleButton
+            <SimpleButton
               buttonText={"Применить"}
               buttonColor={"#FF6633"}
               textColor={"#FFFFFF"}
@@ -53,16 +53,13 @@ function PageCatigory() {
           <AddedValuesAsButtons />
           <ProductsBoard />
           <div className="page-catigory__show-more">
-            <div className="page-catigory__show-more-wrapper">
-              <Global_SimpleButton
-                buttonText={"Показать ещё"}
-                textSize={"16px"}
-              />
+            <div className="page-catigory__show-more-simple-button">
+              <SimpleButton buttonText={"Показать ещё"} textSize={"16px"} />
             </div>
           </div>
 
           <div className="page-catigory__page-navigator">
-            <Global_PageNavigator />
+            <PageNavigator />
           </div>
         </div>
       </div>

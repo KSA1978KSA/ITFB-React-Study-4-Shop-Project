@@ -2,16 +2,16 @@ import React from "react";
 
 import "./css/Footer.css";
 import merch2 from "../../assets/pictures/merch2.png";
-import { ButtonTextArray } from "../elements/Footer/Footer_ButtonTextArray";
-import { ButtonSocialNetworkArray } from "../elements/Footer/Footer_ButtonSocialNetworkArray";
-import { Global_Tab } from "../elements/Global/Global_Tab";
-import { ButtonFhone } from "../elements/Footer/Footer_ButtonFhone";
+import { ButtonTextGroup } from "../elements/Footer/ButtonTextGroup";
+import { ButtonSocialNetworkGroup } from "../elements/Footer/ButtonSocialNetworkGroup";
+import { HTab } from "../elements/Global/HTab";
+import { ButtonFhone } from "../elements/Footer/ButtonFhone";
 
 function Footer() {
   return (
     <div className="footer">
       <div className="footer__wrapper">
-        <Global_Tab tabVolume={116} />
+        <HTab tabVolume={116} />
         <img
           className="footer__merch"
           src={merch2}
@@ -19,11 +19,11 @@ function Footer() {
           aria-hidden="true"
           data-noaft=""
         />
-        <Global_Tab tabVolume={40} />
-        <ButtonTextArray />
-        <Global_Tab tabVolume={135} />
-        <ButtonSocialNetworkArray />
-        <Global_Tab tabVolume={47} />
+        <HTab tabVolume={40} />
+        <ButtonTextGroup />
+        <HTab tabVolume={135} />
+        <ButtonSocialNetworkGroup />
+        <HTab tabVolume={47} />
         <ButtonFhone />
       </div>
     </div>

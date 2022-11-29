@@ -1,0 +1,20 @@
+.button-activator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f2f1;
+  border-radius: 4px;
+}
+
+.button-activator__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  margin-left: 24px;
+  margin-right: 24px;
+  color: #606060;
+}
