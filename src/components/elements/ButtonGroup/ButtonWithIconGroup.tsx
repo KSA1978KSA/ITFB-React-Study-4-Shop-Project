@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./css/ButtonWithIconGroup.css";
-import { ButtonWithIcon } from "./ButtonWithIcon";
+import { ButtonWithIcon } from "../Button/ButtonWithIcon";
 
 function ButtonWithIconGroup(props: any) {
   return (

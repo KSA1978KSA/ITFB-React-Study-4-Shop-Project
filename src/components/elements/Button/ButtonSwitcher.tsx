@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./css/ButtonSwitcher.css";
-import { HTab } from "./HTab";
+import { HTab } from "../Other/HTab";
 
 function ButtonSwitcher(props: any) {
   return (

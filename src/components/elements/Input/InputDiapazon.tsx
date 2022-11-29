@@ -1,8 +1,8 @@
 import React from "react";
 import "./css/InputDiapazon.css";
-import { SimpleButton } from "../Global/SimpleButton";
-import { InputNumber } from "../Global/InputNumber";
-import { Polzunok } from "../Global/Polzunok";
+import { SimpleButton } from "../Button/SimpleButton";
+import { InputNumber } from "./InputNumber";
+import { Polzunok } from "../Other/Polzunok";
 
 function InputDiapazon() {
   return (

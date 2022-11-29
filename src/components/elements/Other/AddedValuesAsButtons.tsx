@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./css/AddedValuesAsButtons.css";
-import { ButtonCloseble } from "./ButtonCloseble";
+import { ButtonCloseble } from "../Button/ButtonCloseble";
 
 function AddedValuesAsButtons(props: any) {
   return (

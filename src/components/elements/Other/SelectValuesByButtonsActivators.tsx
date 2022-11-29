@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/SelectValuesByButtonsActivators.css";
-import { ButtonActivator } from "../Global/ButtonActivator";
+import { ButtonActivator } from "../Button/ButtonActivator";
 
 function SelectValuesByButtonsActivators() {
   return (

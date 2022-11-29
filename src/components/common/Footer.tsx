@@ -2,10 +2,10 @@ import React from "react";
 
 import "./css/Footer.css";
 import merch2 from "../../assets/pictures/merch2.png";
-import { ButtonTextGroup } from "../elements/Footer/ButtonTextGroup";
-import { ButtonSocialNetworkGroup } from "../elements/Footer/ButtonSocialNetworkGroup";
-import { HTab } from "../elements/Global/HTab";
-import { ButtonFhone } from "../elements/Footer/ButtonFhone";
+import { ButtonTextGroup } from "../elements/ButtonGroup/ButtonTextGroup";
+import { ButtonSocialNetworkGroup } from "../elements/ButtonGroup/ButtonSocialNetworkGroup";
+import { HTab } from "../elements/Other/HTab";
+import { ButtonFhone } from "../elements/Button/ButtonFhone";
 
 function Footer() {
   return (

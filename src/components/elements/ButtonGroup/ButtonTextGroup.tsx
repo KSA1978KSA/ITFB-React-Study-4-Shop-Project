@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./css/ButtonTextGroup.css";
-import { ButtonText } from "./ButtonText";
+import { ButtonText } from "../Button/ButtonText";
 
 function ButtonTextGroup(props: any) {
   return (

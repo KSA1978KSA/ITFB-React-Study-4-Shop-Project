@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./css/Polzunok.css";
-import { HTab } from "./HTab";
+import { HTab } from "../Other/HTab";
 
 function Polzunok(props: any) {
   return (

@@ -1,15 +1,15 @@
 import React from "react";
 
 import "./css/PageCatigory.css";
-import { SelectValuesByButtonsActivators } from "../elements/PageCatigory/SelectValuesByButtonsActivators";
-import { ProductsBoard } from "../elements/PageCatigory/ProductsBoard";
-import { AddedValuesAsButtons } from "../elements/PageCatigory/AddedValuesAsButtons";
-import { InputText } from "../elements/PageCatigory/InputText";
-import { InputDiapazon } from "../elements/PageCatigory/InputDiapazon";
-import { ListBox } from "../elements/PageCatigory/ListBox";
-import { SwitcherWithText } from "../elements/PageCatigory/SwitcherWithText";
-import { SimpleButton } from "../elements/Global/SimpleButton";
-import { PageNavigator } from "../elements/Global/PageNavigator";
+import { SelectValuesByButtonsActivators } from "../elements/Other/SelectValuesByButtonsActivators";
+import { ProductsBoard } from "../elements/Other/ProductsBoard";
+import { AddedValuesAsButtons } from "../elements/Other/AddedValuesAsButtons";
+import { InputText } from "../elements/Input/InputText";
+import { InputDiapazon } from "../elements/Input/InputDiapazon";
+import { ListBox } from "../elements/Other/ListBox";
+import { SwitcherWithText } from "../elements/Other/SwitcherWithText";
+import { SimpleButton } from "../elements/Button/SimpleButton";
+import { PageNavigator } from "../elements/Other/PageNavigator";
 
 import { useNavigate } from "react-router-dom";
 

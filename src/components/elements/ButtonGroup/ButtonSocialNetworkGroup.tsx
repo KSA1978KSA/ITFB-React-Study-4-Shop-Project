@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./css/ButtonSocialNetworkGroup.css";
-import { ButtonSocialNetwork } from "./ButtonSocialNetwork";
+import { ButtonSocialNetwork } from "../Button/ButtonSocialNetwork";
 
 function ButtonSocialNetworkGroup(props: any) {
   return (

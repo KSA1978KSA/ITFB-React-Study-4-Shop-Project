@@ -3,7 +3,7 @@ import { PageCatigories } from "./components/pages/PageCatigories";
 import { PageCatigory } from "./components/pages/PageCatigory";
 import { MainMenu } from "./components/common/MainMenu";
 import { Footer } from "./components/common/Footer";
-import { HTab } from "./components/elements/Global/HTab";
+import { HTab } from "./components/elements/Other/HTab";
 import "./assets/fonts/Rubik.css";
 import "./index.css";
 
