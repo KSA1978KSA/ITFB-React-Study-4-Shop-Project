@@ -10,7 +10,7 @@ import print_maslo_prostokvashino_1 from "../../../assets/pictures/dinamic_print
 import print_yogurt_fruttis_1 from "../../../assets/pictures/dinamic_prints/print_yogurt_fruttis_1.png";
 import print_yogurt_fruttis_2 from "../../../assets/pictures/dinamic_prints/print_yogurt_fruttis_2.png";
 
-function ProductsBoard() {
+function ProductsBoard(props: any) {
   return (
     <div className="products-board">
       <ProductCard

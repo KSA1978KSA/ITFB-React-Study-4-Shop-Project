@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./css/StickyButton.css";
+import "./css/ButtonSticky.css";
 
-function StickyButton(props: any) {
+function ButtonSticky(props: any) {
   let jsxElement: JSX.Element;
 
   /*
@@ -19,14 +19,14 @@ function StickyButton(props: any) {
     case 1:
       jsxElement = (
         <div
-          className="sticky-button"
+          className="button-sticky"
           style={{
             background: props.buttonColor_Pressed,
             borderColor: props.textColor_Pressed,
           }}
         >
           <div
-            className="sticky-button__text"
+            className="button-sticky__text"
             style={{ color: props.textColor_Pressed, fontSize: props.textSize }}
           >
             {props.buttonText}
@@ -38,14 +38,14 @@ function StickyButton(props: any) {
     default:
       jsxElement = (
         <div
-          className="sticky-button"
+          className="button-sticky"
           style={{
             background: props.buttonColor,
             borderColor: props.textColor,
           }}
         >
           <div
-            className="sticky-button__text"
+            className="button-sticky__text"
             style={{ color: props.textColor, fontSize: props.textSize }}
           >
             {props.buttonText}
@@ -56,4 +56,4 @@ function StickyButton(props: any) {
 
   return jsxElement;
 }
-export { StickyButton };
+export { ButtonSticky };

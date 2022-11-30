@@ -2,7 +2,7 @@ import React from "react";
 import "./css/ProductCard.css";
 import icon_heart from "../../../assets/pictures/icon_heart.png";
 import { RatingStars } from "../Other/RatingStars";
-import { StickyButton } from "../Button/StickyButton";
+import { ButtonSticky } from "../Button/ButtonSticky";
 
 function ProductCard(props: any) {
   return (
@@ -56,7 +56,7 @@ function ProductCard(props: any) {
           <RatingStars />
         </div>
 
-        <StickyButton
+        <ButtonSticky
           buttonText={"В корзину"}
           textSize={16}
           textColor={"#70C05B"}

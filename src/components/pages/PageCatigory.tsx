@@ -8,7 +8,7 @@ import { InputText } from "../elements/Input/InputText";
 import { InputDiapazon } from "../elements/Input/InputDiapazon";
 import { ListBox } from "../elements/Other/ListBox";
 import { SwitcherWithText } from "../elements/Other/SwitcherWithText";
-import { SimpleButton } from "../elements/Button/SimpleButton";
+import { ButtonSimple } from "../elements/Button/ButtonSimple";
 import { PageNavigator } from "../elements/Other/PageNavigator";
 
 import { useNavigate } from "react-router-dom";
@@ -40,7 +40,7 @@ function PageCatigory() {
           <SwitcherWithText text={"В наличии"} />
 
           <div className="page-catigory__body-panel-apply-filter">
-            <SimpleButton
+            <ButtonSimple
               buttonText={"Применить"}
               buttonColor={"#FF6633"}
               textColor={"#FFFFFF"}
@@ -54,7 +54,7 @@ function PageCatigory() {
           <ProductsBoard />
           <div className="page-catigory__show-more">
             <div className="page-catigory__show-more-simple-button">
-              <SimpleButton buttonText={"Показать ещё"} textSize={"16px"} />
+              <ButtonSimple buttonText={"Показать ещё"} textSize={"16px"} />
             </div>
           </div>
 

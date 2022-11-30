@@ -2,7 +2,7 @@ import React from "react";
 import "./css/SelectValuesByButtonsActivators.css";
 import { ButtonActivator } from "../Button/ButtonActivator";
 
-function SelectValuesByButtonsActivators() {
+function SelectValuesByButtonsActivators(props: any) {
   return (
     <div className="select-values-by-buttons-activators">
       <ButtonActivator buttonText={"Товары нашего производства"} />
