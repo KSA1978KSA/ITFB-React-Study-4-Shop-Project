@@ -39,18 +39,18 @@ ReactDOM.render(
 
           <div className="page__container">
             <Routes>
-              <Route path="/PageCatigories">
+              <Route path="/page-catigories">
                 <Route index element={<PageCatigories />} />
               </Route>
 
-              <Route path="/PageCatigory">
+              <Route path="/page-catigory">
                 <Route index element={<PageCatigory />} />
               </Route>
 
               <Route
-                path="*"
-                element={<Navigate to="/PageCatigories" replace />}
-              />
+                path="/"
+                element={<Navigate to="/page-catigories" replace />}
+              ></Route>
             </Routes>
           </div>
 

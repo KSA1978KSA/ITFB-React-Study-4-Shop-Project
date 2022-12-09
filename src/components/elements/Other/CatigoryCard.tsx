@@ -27,7 +27,7 @@ function CatigoryCard(props: any) {
     <div
       className="сatigory-сard"
       onClick={() => {
-        navigate(`/PageCatigory`);
+        navigate(`/page-catigory`);
       }}
     >
       <img
